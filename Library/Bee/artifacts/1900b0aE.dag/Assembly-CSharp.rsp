@@ -355,6 +355,7 @@
 "Assets/Scripts/ButtonController.cs"
 "Assets/Scripts/NoteObject.cs"
 "Assets/Scripts/NoteScroller.cs"
+"Assets/Scripts/SceneLoader.cs"
 -langversion:9.0
 
 /deterministic
