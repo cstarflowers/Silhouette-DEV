@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameplayDemo.unity
     guid: 089431efa8c3cae4e9bdc22646e9865c
+  - enabled: 1
+    path: Assets/Scenes/OpeningScene.unity
+    guid: a36e8fff4ae1b2c43b473bebbdd0efff
+  - enabled: 0
+    path: Assets/Scenes/BrainWorld.unity
+    guid: 3ddfa20178481204c9dc38773aeb3a85
   m_configObjects: {}
