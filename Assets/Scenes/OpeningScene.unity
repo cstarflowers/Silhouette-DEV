@@ -220,8 +220,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cbc7935c3ba41143a6d4a0b04b4c82f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 32
-  NewLevel: GameplayDemo
+  delay: 16
+  NewLevel: BrainWorld
 --- !u!1 &1010578795
 GameObject:
   m_ObjectHideFlags: 0
@@ -341,7 +341,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1300, y: 600}
+  m_ReferenceResolution: {x: 1200, y: 800}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -419,9 +419,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2139787493}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4, y: 4, z: 5.04}
-  m_LocalScale: {x: 1288.3679, y: 600, z: 0}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: 0.999, y: -0.841, z: 5.04}
+  m_LocalScale: {x: 1229.1791, y: 688.0968, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1953587385}
   m_RootOrder: 0
@@ -445,7 +445,7 @@ VideoPlayer:
   m_RenderMode: 3
   m_AspectRatio: 2
   m_DataSource: 0
-  m_PlaybackSpeed: 0.5
+  m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
   - {fileID: 0}
