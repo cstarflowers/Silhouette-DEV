@@ -10,8 +10,11 @@ All licensed works, whether listed or not, are separate from eachother and their
 # -- -- Development -- --
 
 Mina Seta, Carson Stary, Kodi Homphothichak . . . Game & Concept Creation
+
 Mina Seta . . . Programming & Level Design
+
 Carson Stary . . . Programming & Story Creation
+
 Kodi Homphothichak . . . Game Artwork
 
 
