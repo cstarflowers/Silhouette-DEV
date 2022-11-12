@@ -1,4 +1,4 @@
-**Let it be known that the following content license ONLY applies to original content created specifically for use in this project. If content in this project is licensed by another creator, it is required to follow the terms of those licenses, if used. For more information on content licensing and ownership, see the CREDITS.md file.**
+**Let it be known that the following license solely applies to content and media created specifically for use in this project. If game content in this project is licensed by another creator, it is still required to follow the terms of those licenses, if used. For more information on content licensing and ownership, please see the CREDITS.md file.**
 
 =======================================================================
 
