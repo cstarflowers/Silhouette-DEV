@@ -1,9 +1,11 @@
 ## Credits
 ...
 
-To request a removal or addition to this list, please reach out to a developer. Similarly, if you'd like to use reuse in-game assets, you may speak to the content owner directly regarding licensing agreements. We have express permission to use licensed content in our game.
+To request a removal or addition to this list, please reach out to a developer directly. Similarly, if you'd like to use the work here yourself, you may speak to the content owner directly regarding licensing agreements. We have express permission to use said content in our game.
 
-All licensed works, whether listed or not, are separate from eachother and their licenses will not affect those for other content. Original game content, excluding those listed below, has been licensed under **CC BY-NC 4.0**.
+All externally licensed works (aka. online contributions) should be considered to have unique and separate licenses; any licenses, terms, or agreements applied to other game content will not apply to them. Additional works that have not been listed as contributions are licensed under **CC BY-NC 4.0**, which can be found in LICENSE.md. 
+
+Thank you for your continued support of our project!
 
 ...
 
