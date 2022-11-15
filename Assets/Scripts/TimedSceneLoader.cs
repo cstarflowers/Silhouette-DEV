@@ -4,8 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class TimedSceneLoader : MonoBehaviour
 {
-    public float delay = 32;
-    public string NewLevel = "GameplayDemo";
+    public float delay;
+    public string newLevel;
     void Start()
     {
         StartCoroutine(LoadLevelAfterDelay(delay));
@@ -14,6 +14,6 @@ public class TimedSceneLoader : MonoBehaviour
     IEnumerator LoadLevelAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        SceneManager.LoadScene(NewLevel);
+        Initiate.Fade(newLevel,Color.black,1);
     }
 }

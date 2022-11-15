@@ -134,7 +134,6 @@ GameObject:
   - component: {fileID: 35643119}
   - component: {fileID: 35643118}
   - component: {fileID: 35643117}
-  - component: {fileID: 35643121}
   - component: {fileID: 35643120}
   m_Layer: 0
   m_Name: Main Camera
@@ -201,7 +200,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 35643116}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 440, y: 263, z: -10}
   m_LocalScale: {x: 1, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
@@ -221,22 +220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7bc9e92ddeb8c1429fc9b0a20ce43ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NewLevel: OpeningScene
---- !u!114 &35643121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 35643116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+  newLevel: OpeningScene
 --- !u!1 &210401701
 GameObject:
   m_ObjectHideFlags: 0

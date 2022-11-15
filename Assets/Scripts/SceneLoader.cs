@@ -4,13 +4,14 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-    public string NewLevel = "GameplayDemo";
+    public string newLevel;
 
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
-            SceneManager.LoadScene(NewLevel);
+            // SceneManager.LoadScene(NewLevel);
+            Initiate.Fade(newLevel,Color.black,1);
         }
     }
 }

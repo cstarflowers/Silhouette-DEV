@@ -2,25 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : MonoBehaviour {
+
+public float speed;
+public Rigidbody2D player;
+
+public void Update()
 {
+    float h = Input.GetAxis("Horizontal");
+    float v = Input.GetAxis("Vertical");
 
-    public float moveSpeed;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if(Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f) {
-            transform.Translate (new Vector3(Input.GetAxisRaw("Horizontal") * moveSpeed * Time.deltaTime, 0f, 0f));
-        }
-        if(Input.GetAxisRaw("Vertical") > 0.5f || Input.GetAxisRaw("Vertical") < -0.5f) {
-            transform.Translate (new Vector3(Input.GetAxisRaw("Vertical") * moveSpeed * Time.deltaTime, 0f));
-        }
-    }
+    Vector3 tempVect = new Vector3(h, v, 0);
+    tempVect = tempVect.normalized * (1000*speed) * Time.deltaTime;
+    player.MovePosition(player.transform.position + tempVect);
+}
 }
