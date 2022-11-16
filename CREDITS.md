@@ -11,8 +11,6 @@ Thank you for your continued support of our project!
 
 # -- -- Development -- --
 
-Mina Seta, Carson Stary, Kodi Homphothichak . . . Game & Concept Creation
-
 Mina Seta . . . Programming & Level Design
 
 Carson Stary . . . Programming & Story Creation
@@ -25,4 +23,4 @@ Faylyne . . . Contributor ([Flower Crown Menu Screen -- CC BY 2.0](https://www.f
 
 carolyn . . . Contributor ([carolyn handwritten Font -- Freeware](https://www.fontspace.com/carolyn-handwritten-font-f19729))
 
-negleft . . . Contributor ([Simple Fade Scene Transition System -- Unity Asset Store](https://assetstore.unity.com/packages/tools/particles-effects/simple-fade-scene-transition-system-81753))
+negleft . . . Contributor ([Simple Fade Scene Transition System -- Unity Asset](https://assetstore.unity.com/packages/tools/particles-effects/simple-fade-scene-transition-system-81753))
