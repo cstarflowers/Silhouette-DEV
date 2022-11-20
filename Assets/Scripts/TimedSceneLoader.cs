@@ -14,6 +14,6 @@ public class TimedSceneLoader : MonoBehaviour
     IEnumerator LoadLevelAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        Initiate.Fade(newLevel,Color.black,1);
+        Initiate.Fade(newLevel,Color.black,30);
     }
 }
