@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ButtonController : MonoBehaviour
 {
-    private SpriteRenderer theSR;
+    private SpriteRenderer hitCircle;
     public Sprite defaultImage;
     public Sprite pressedImage;
 
@@ -12,18 +12,18 @@ public class ButtonController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        theSR = GetComponent<SpriteRenderer>();
+        hitCircle = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
     void Update()
     {
         if(Input.GetKeyDown(keyToPress)) {
-            theSR.sprite = pressedImage;
+            hitCircle.sprite = pressedImage;
         }
 
         if(Input.GetKeyUp(keyToPress)) {
-            theSR.sprite = defaultImage;
+            hitCircle.sprite = defaultImage;
         }
     }
 }
