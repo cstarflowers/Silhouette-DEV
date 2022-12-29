@@ -28,3 +28,5 @@ negleft . . . Contributor ([Simple Fade Scene Transition System -- Unity Asset](
 Xorberax . . . Contributor ([Imaginary Flowers (Song) -- CC BY-NC-SA 3.0](https://www.newgrounds.com/audio/listen/1132211))
 
 Kenney . . . Contributor ([Roguelike/RPG Tile Pack -- CC 0](https://opengameart.org/content/roguelikerpg-pack-1700-tiles))
+
+LordAndiso . . . Contributor ([Fireworks (Song) -- CC BY-NC 4.0](https://www.newgrounds.com/audio/listen/1160376))
