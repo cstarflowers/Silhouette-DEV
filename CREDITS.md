@@ -19,6 +19,8 @@ Kodi Homphothichak . . . Game Artwork
 
 
 # -- -- Online Contributions -- --
+*external contributions are unmodified unless otherwise stated
+
 Faylyne . . . Contributor ([Flower Crown Menu Screen -- CC BY 2.0](https://www.flickr.com/photos/bellafaye8/10918036363))
 
 carolyn . . . Contributor ([carolyn handwritten Font -- Freeware](https://www.fontspace.com/carolyn-handwritten-font-f19729))
