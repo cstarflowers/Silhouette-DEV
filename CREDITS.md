@@ -26,3 +26,5 @@ carolyn . . . Contributor ([carolyn handwritten Font -- Freeware](https://www.fo
 negleft . . . Contributor ([Simple Fade Scene Transition System -- Unity Asset](https://assetstore.unity.com/packages/tools/particles-effects/simple-fade-scene-transition-system-81753))
 
 Xorberax . . . Contributor ([Imaginary Flowers (Song) -- CC BY-NC-SA 3.0](https://www.newgrounds.com/audio/listen/1132211))
+
+Kenney . . . Contributor ([Roguelike/RPG Tile Pack -- CC 0](https://opengameart.org/content/roguelikerpg-pack-1700-tiles))
