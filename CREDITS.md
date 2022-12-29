@@ -33,4 +33,4 @@ Kenney . . . Contributor ([Roguelike/RPG Tile Pack -- CC 0](https://opengameart.
 
 LordAndiso . . . Contributor ([Fireworks (Song) -- CC BY-NC 4.0](https://www.newgrounds.com/audio/listen/1160376))
 
-melanchall . . . Contributor ([DryWetMIDI -- Unity Asset](https://assetstore.unity.com/packages/tools/audio/drywetmidi-222171)
+melanchall . . . Contributor ([DryWetMIDI -- Unity Asset](https://assetstore.unity.com/packages/tools/audio/drywetmidi-222171))
