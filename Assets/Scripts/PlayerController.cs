@@ -18,7 +18,7 @@ public void Update()
     float v = Input.GetAxis("Vertical");
 
     Vector3 tempVect = new Vector3(h, v, 0);
-    tempVect = tempVect.normalized * (1000*speed) * Time.deltaTime;
+    tempVect = tempVect.normalized * speed * Time.deltaTime;
     player.MovePosition(player.transform.position + tempVect);
 
     _animator.SetBool("walkingLeft", h < 0);
