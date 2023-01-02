@@ -165,7 +165,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 36d9e411de432e645b9e63c40de38b5a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: db9a7110ae306f64e8505e48ec67f3d3, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.3
   m_Pitch: 1
@@ -353,12 +353,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 688059666}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7bc9e92ddeb8c1429fc9b0a20ce43ef, type: 3}
+  m_Script: {fileID: 11500000, guid: 2cbc7935c3ba41143a6d4a0b04b4c82f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newLevel: LevelOne
-  delay: 4
-  fadeSpeed: 30
+  delay: 5
+  newLevel: BrainWorld
 --- !u!1 &734578747
 GameObject:
   m_ObjectHideFlags: 0
@@ -387,7 +386,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 734578747}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 2e884f43461dab9499982806d461760a, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 29ecab1c651be0b43bab2b4361cb605a, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -399,7 +398,7 @@ VideoPlayer:
   m_AspectRatio: 2
   m_DataSource: 0
   m_TimeUpdateMode: 2
-  m_PlaybackSpeed: 0.75
+  m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources: []
   m_DirectAudioVolumes: []
