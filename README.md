@@ -10,8 +10,6 @@ A game created by:
 - Kodi Homphothichak
 
 ## What is Silhouette?
-Silhouette is a rhythm-based RPG game project, following our main character and the world inside their brain. As a result of a traumatic accident, they have taken refuge inside their mind and use music to escape from the outside world. Together with their best friend, Lex, they come to realize they need to open up to their friends and the outside world again; that's where you come in. 
-
-Help our main character to save themselves and face their worst fears using the power of music in Silhouette! 
+Silhouette is a rhythm-based RPG game project, following our main character and the world inside their brain. As the result of a tragic accident, they have ended up trapped in a coma, alongside their best dreams and worst nightmares. Help our main character by uncovering the truth and coming back to the real world again OR choosing to stay in the land of your dreams, where anything can happen. Their fate lies in your hands.
 
 **DOWNLOAD COMING SOON**
