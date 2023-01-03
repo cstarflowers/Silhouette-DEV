@@ -12,6 +12,8 @@ private Vector2 direction;
 void Start() {
     animator = GetComponent<Animator>();
     player = GetComponent<Rigidbody2D>();
+
+    player.constraints = RigidbodyConstraints2D.FreezeRotation;
 }
 
 public void Update()
