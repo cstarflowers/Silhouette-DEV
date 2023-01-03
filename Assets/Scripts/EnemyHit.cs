@@ -11,6 +11,4 @@ public class EnemyHit : MonoBehaviour
     {
         Initiate.Fade(newLevel,Color.black,1);
     }
-
-    void Start() {}
 }
