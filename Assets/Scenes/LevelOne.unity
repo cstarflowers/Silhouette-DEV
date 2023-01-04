@@ -156,10 +156,10 @@ RectTransform:
   m_Father: {fileID: 2024195408}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 207, y: -169}
-  m_SizeDelta: {x: 12, y: 5}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 77.03, y: -84}
+  m_SizeDelta: {x: 63.007, y: 3.6824}
   m_Pivot: {x: 0.53287345, y: 0.5}
 --- !u!114 &121506
 MonoBehaviour:
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 100
+  m_text: '[REPLACE ME]'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fb7331eb605e80840bb9081c5cc07bf6, type: 2}
   m_sharedMaterial: {fileID: -355692981782967539, guid: fb7331eb605e80840bb9081c5cc07bf6, type: 2}
@@ -1226,6 +1226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoreText: {fileID: 121506}
+  HP: 100000
 --- !u!4 &786516798
 Transform:
   m_ObjectHideFlags: 0
@@ -1451,7 +1452,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 18, y: -20.999512}
+  m_AnchoredPosition: {x: 18, y: 37}
   m_SizeDelta: {x: -1824, y: -1062}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!328 &1756815060

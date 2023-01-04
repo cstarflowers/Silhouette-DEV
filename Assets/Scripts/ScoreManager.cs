@@ -8,7 +8,8 @@ public class ScoreManager : MonoBehaviour
     public TMPro.TextMeshPro scoreText;
     static int comboScore;
     static int failMulti;
-    static int adjScore;
+    static float adjScore;
+    public float HP;
 
     void Start()
     {
@@ -50,10 +51,16 @@ public class ScoreManager : MonoBehaviour
         }
     }
 
-    private void Update()
+    void FixedUpdate()
     {
-        scoreText.text = adjScore.ToString();
-        // print("adjScore = " + adjScore.ToString());
-        // print("failMulti = " + failMulti.ToString());
+        if(adjScore >= HP) {
+            scoreText.text = "Winning! (" + (Mathf.Round((adjScore/HP) * 100)) + "%)";
+            // print(adjScore + "/" + HP + " = " + (Mathf.Round((adjScore/HP) * 100)) + "%");
+        } 
+        else {
+            scoreText.text = "Failing. (" + (Mathf.Round((adjScore/HP) * 100)) + "%)";
+            // print(adjScore + "/" + HP + " = " + (Mathf.Round((adjScore/HP) * 100)) + "%");
+        }
+        // scoreText.text = adjScore.ToString();
     }
 }
