@@ -20,13 +20,27 @@ public class SongManager : MonoBehaviour
 
     public string fileLocation;
     public float noteTime;
+
     public float noteSpawnY;
     public float noteTapY;
+
+    // MUST BE A POSITIVE NUMBER OR LEFT/RIGHT WILL REVERSE
+    public float noteTapX;
+    public float noteSpawnX;
+
     public float noteDespawnY
     {
         get
         {
             return noteTapY - (noteSpawnY - noteTapY);
+        }
+    }
+
+    public float noteDespawnX
+    {
+        get 
+        {
+            return noteTapX - (noteSpawnX - noteTapX);
         }
     }
 
@@ -89,10 +103,5 @@ public class SongManager : MonoBehaviour
     public static double GetAudioSourceTime()
     {
         return (double)Instance.audioSource.timeSamples / Instance.audioSource.clip.frequency;
-    }
-
-    void Update()
-    {
-        
     }
 }
