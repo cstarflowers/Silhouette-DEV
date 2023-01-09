@@ -6,9 +6,23 @@ public class Note : MonoBehaviour
 {
     double timeInstantiated;
     public float assignedTime;
+    public string direction;
+
     void Start()
     {
         timeInstantiated = SongManager.GetAudioSourceTime();
+        if (this.gameObject.name.Contains("Up")) {
+            direction = "up";
+        }
+        else if (this.gameObject.name.Contains("Down")) {
+            direction = "down";
+        }
+        else if (this.gameObject.name.Contains("Left")) {
+            direction = "left";
+        }
+        else if (this.gameObject.name.Contains("Right")) {
+            direction = "right";
+        }
     }
 
     // Update is called once per frame
@@ -23,7 +37,18 @@ public class Note : MonoBehaviour
         }
         else
         {
-            transform.localPosition = Vector3.Lerp(Vector3.up * SongManager.Instance.noteSpawnY, Vector3.up * SongManager.Instance.noteDespawnY, t); 
+            if(direction == "up") {
+                transform.localPosition = Vector3.Lerp(Vector3.down * SongManager.Instance.noteSpawnY, Vector3.down * SongManager.Instance.noteDespawnY, t); 
+            } 
+            else if(direction == "down") {
+                transform.localPosition = Vector3.Lerp(Vector3.up * SongManager.Instance.noteSpawnY, Vector3.up * SongManager.Instance.noteDespawnY, t); 
+            }
+            else if(direction == "right") {
+                transform.localPosition = Vector3.Lerp(Vector3.left * SongManager.Instance.noteSpawnX, Vector3.left * SongManager.Instance.noteDespawnX, t); 
+            }
+            else if(direction == "left") {
+                transform.localPosition = Vector3.Lerp(Vector3.right * SongManager.Instance.noteSpawnX, Vector3.right * SongManager.Instance.noteDespawnX, t); 
+            }
             GetComponent<SpriteRenderer>().enabled = true;
         }
     }
