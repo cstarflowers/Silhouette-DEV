@@ -18,8 +18,10 @@ Carson Stary . . . Programming & Story Creation
 Kodi Homphothichak . . . Game Artwork
 
 
-# -- -- Online Contributions -- --
+# -- -- Contributions -- --
 *external contributions are unmodified unless otherwise stated
+
+Yasemin Ozer . . . Contributor (Star Background -- Donation)
 
 Faylyne . . . Contributor ([Flower Crown Menu Screen -- CC BY 2.0](https://www.flickr.com/photos/bellafaye8/10918036363))
 
@@ -36,3 +38,5 @@ Kenney . . . Contributor ([RPG Urban Pack -- CC 0](https://opengameart.org/conte
 LordAndiso . . . Contributor ([Fireworks (Song) -- CC BY-NC 4.0](https://www.newgrounds.com/audio/listen/1160376))
 
 melanchall . . . Contributor ([DryWetMIDI -- Unity Asset](https://assetstore.unity.com/packages/tools/audio/drywetmidi-222171))
+
+Kevin MacLeod . . . Contributor ([Gymnopedie No. 1 -- CC BY 4.0](https://www.youtube.com/watch?v=YlTQSg4so8k))
