@@ -39,4 +39,4 @@ LordAndiso . . . Contributor ([Fireworks (Song) -- CC BY-NC 4.0](https://www.new
 
 melanchall . . . Contributor ([DryWetMIDI -- Unity Asset](https://assetstore.unity.com/packages/tools/audio/drywetmidi-222171))
 
-Kevin MacLeod . . . Contributor ([Gymnopedie No. 1 -- CC BY 4.0](https://www.youtube.com/watch?v=YlTQSg4so8k))
+Kevin MacLeod . . . Contributor ([Gymnopedie No. 1 (Song) -- CC BY 4.0](https://www.youtube.com/watch?v=YlTQSg4so8k))
