@@ -20,7 +20,7 @@ public class SceneLoader : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Return))
         {
             // SceneManager.LoadScene(NewLevel);
             Initiate.Fade(newLevel,Color.black,fadeSpeed);

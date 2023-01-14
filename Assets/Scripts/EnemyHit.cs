@@ -12,9 +12,9 @@ public class EnemyHit : MonoBehaviour
         player = GameObject.FindWithTag("Player");
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerStay2D(Collider2D other)
     {
-        if(other.gameObject.name == "Player") {
+        if(other.gameObject.name == "Player" && Input.GetKeyDown(KeyCode.Return)) {
             Initiate.Fade(newLevel,Color.black,1);
         }
     }

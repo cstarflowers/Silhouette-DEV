@@ -234,8 +234,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9.000078, y: -58.9999}
-  m_SizeDelta: {x: 1041.8752, y: 80.83}
+  m_AnchoredPosition: {x: 6.3909454, y: -58.9999}
+  m_SizeDelta: {x: 1223.0122, y: 80.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &101733087
 MonoBehaviour:
@@ -257,7 +257,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Click to play!
+  m_text: Tap [ENTER] to begin
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fb7331eb605e80840bb9081c5cc07bf6, type: 2}
   m_sharedMaterial: {fileID: -355692981782967539, guid: fb7331eb605e80840bb9081c5cc07bf6, type: 2}
@@ -284,8 +284,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 75
+  m_fontSizeBase: 75
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -369,8 +369,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -17.000078, y: -53.9999}
-  m_SizeDelta: {x: 1041.8752, y: 80.83}
+  m_AnchoredPosition: {x: -3, y: -53.9999}
+  m_SizeDelta: {x: 1223.0122, y: 80.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &210401703
 MonoBehaviour:
@@ -392,7 +392,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Click to play!
+  m_text: Tap [ENTER] to begin
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fb7331eb605e80840bb9081c5cc07bf6, type: 2}
   m_sharedMaterial: {fileID: -355692981782967539, guid: fb7331eb605e80840bb9081c5cc07bf6, type: 2}
@@ -419,8 +419,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 75
+  m_fontSizeBase: 75
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -634,7 +634,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 195261ba548e4f744a8733d6f4ba2250, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e8a4bb40e8d558e41911e786587bdbe1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1032,5 +1032,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newLevel: BrainWorld
-  delay: 9999
   fadeSpeed: 1
