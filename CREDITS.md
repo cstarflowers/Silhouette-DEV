@@ -1,7 +1,7 @@
 ## Credits
 ...
 
-To request a removal or addition to this list, please reach out to a developer directly. Similarly, if you'd like to use any of the work listed here yourself, you may speak to the attributed owner directly regarding licensing agreements. We have express permission to use said content in our game.
+To request a removal or addition to this list, please reach out to a developer directly. Similarly, if you'd like to use any of the work listed here yourself, you may speak to the attributed owner directly regarding licensing agreements. We have permission to use said content in our game.
 
 All externally licensed works (aka. online contributions) should be considered to have unique and separate licenses; licenses, terms, and/or agreements applied to other game content will not apply to original content and vice-versa. Works included that have not been listed as contributions are licensed under **CC BY-NC 4.0**, which can be found in LICENSE.md. 
 
@@ -42,3 +42,5 @@ melanchall . . . Contributor ([DryWetMIDI -- Unity Asset](https://assetstore.uni
 Kevin MacLeod . . . Contributor ([Gymnopedie No. 1 (Song) -- CC BY 4.0](https://www.youtube.com/watch?v=YlTQSg4so8k))
 
 Theodore Palser . . . Contributor ([TV Noise -- CC 0](https://www.publicdomainpictures.net/en/view-image.php?image=201932&picture=tv-noise))
+
+wispx . . . Contributor ([Snowfield (Song) -- CC BY-NC-ND 4.0](https://www.newgrounds.com/audio/listen/1176421))
