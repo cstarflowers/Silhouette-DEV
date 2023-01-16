@@ -43,8 +43,6 @@ Kevin MacLeod . . . Contributor ([Gymnopedie No. 1 (Song) -- CC BY 4.0](https://
 
 Theodore Palser . . . Contributor ([TV Noise -- CC 0](https://www.publicdomainpictures.net/en/view-image.php?image=201932&picture=tv-noise))
 
-wispx . . . Contributor ([Snowfield (Song) -- CC BY-NC-ND 4.0](https://www.newgrounds.com/audio/listen/1176421))
-
 ReinnOfficialTracks . . . Contributor ([My Little Soul (Song) -- CC BY-NC 4.0](https://www.newgrounds.com/audio/listen/1035875))
 
 JaimeLopes . . . Contributor ([Suburban Ambience -- CC BY 4.0](https://freesound.org/people/JaimeLopes/sounds/591105/))
