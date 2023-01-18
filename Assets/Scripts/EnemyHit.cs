@@ -10,6 +10,7 @@ public class EnemyHit : MonoBehaviour
 
     private void Start() {
         player = GameObject.FindWithTag("Player");
+        // Physics.IgnoreLayerCollision(0, 3);
     }
 
     void OnTriggerStay2D(Collider2D other)
