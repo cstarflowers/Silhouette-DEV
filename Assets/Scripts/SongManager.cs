@@ -12,7 +12,7 @@ public class SongManager : MonoBehaviour
     public static SongManager Instance;
     public AudioSource audioSource;
     public Lane[] lanes;
-    public float songDelayInSeconds;
+    public float delay; // in seconds
     public double marginOfError; // in seconds
 
     public int inputDelayInMilliseconds;
@@ -94,7 +94,7 @@ public class SongManager : MonoBehaviour
 
         foreach (var lane in lanes) lane.SetTimeStamps(array);
 
-        Invoke(nameof(StartSong), songDelayInSeconds);
+        Invoke(nameof(StartSong), delay);
     }
     public void StartSong()
     {

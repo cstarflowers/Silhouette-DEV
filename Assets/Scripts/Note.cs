@@ -37,17 +37,19 @@ public class Note : MonoBehaviour
         }
         else
         {
-            if(direction == "up") {
-                transform.localPosition = Vector3.Lerp(Vector3.down * SongManager.Instance.noteSpawnY, Vector3.down * SongManager.Instance.noteDespawnY, t); 
-            } 
-            else if(direction == "down") {
-                transform.localPosition = Vector3.Lerp(Vector3.up * SongManager.Instance.noteSpawnY, Vector3.up * SongManager.Instance.noteDespawnY, t); 
-            }
-            else if(direction == "right") {
-                transform.localPosition = Vector3.Lerp(Vector3.left * SongManager.Instance.noteSpawnX, Vector3.left * SongManager.Instance.noteDespawnX, t); 
-            }
-            else if(direction == "left") {
-                transform.localPosition = Vector3.Lerp(Vector3.right * SongManager.Instance.noteSpawnX, Vector3.right * SongManager.Instance.noteDespawnX, t); 
+            switch(direction) {
+                case "up":
+                    transform.localPosition = Vector3.Lerp(Vector3.down * SongManager.Instance.noteSpawnY, Vector3.down * SongManager.Instance.noteDespawnY, t); 
+                    break;
+                case "down":
+                    transform.localPosition = Vector3.Lerp(Vector3.up * SongManager.Instance.noteSpawnY, Vector3.up * SongManager.Instance.noteDespawnY, t); 
+                    break;
+                case "right":
+                    transform.localPosition = Vector3.Lerp(Vector3.left * SongManager.Instance.noteSpawnX, Vector3.left * SongManager.Instance.noteDespawnX, t); 
+                    break;
+                case "left":
+                    transform.localPosition = Vector3.Lerp(Vector3.right * SongManager.Instance.noteSpawnX, Vector3.right * SongManager.Instance.noteDespawnX, t); 
+                    break;
             }
             GetComponent<SpriteRenderer>().enabled = true;
         }

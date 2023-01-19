@@ -16,31 +16,11 @@ public class ButtonController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.UpArrow)) {
+    void Update() {
+        if (Input.anyKey) {
             hitCircle.sprite = pressedImage;
         }
-        else if(Input.GetKeyDown(KeyCode.DownArrow)) {
-            hitCircle.sprite = pressedImage;
-        }
-        else if(Input.GetKeyDown(KeyCode.LeftArrow)) {
-            hitCircle.sprite = pressedImage;
-        }
-        else if(Input.GetKeyDown(KeyCode.RightArrow)) {
-            hitCircle.sprite = pressedImage;
-        }
-
-        if(Input.GetKeyUp(KeyCode.UpArrow)) {
-            hitCircle.sprite = defaultImage;
-        }
-        else if(Input.GetKeyUp(KeyCode.DownArrow)) {
-            hitCircle.sprite = defaultImage;
-        }
-        else if(Input.GetKeyUp(KeyCode.LeftArrow)) {
-            hitCircle.sprite = defaultImage;
-        }
-        else if(Input.GetKeyUp(KeyCode.RightArrow)) {
+        if (!Input.anyKey) {
             hitCircle.sprite = defaultImage;
         }
     }
