@@ -1265,7 +1265,7 @@ RectTransform:
   m_GameObject: {fileID: 929977728}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 50, y: 50, z: 0}
+  m_LocalScale: {x: 300, y: 300, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2024195408}
@@ -1273,7 +1273,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 4, y: -23}
+  m_AnchoredPosition: {x: -34, y: -23}
   m_SizeDelta: {x: -1824, y: -1062}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &929977730
@@ -1317,7 +1317,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 5e64b41c5564e314cb8bd64445f4d2e5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: db7fdd7f765856d4796b2df239009e8e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1584,7 +1584,7 @@ MonoBehaviour:
   - {fileID: 364943400}
   - {fileID: 780492655}
   - {fileID: 479551266}
-  songDelayInSeconds: 0
+  delay: 0
   marginOfError: 0.3
   inputDelayInMilliseconds: 0
   fileLocation: Fireworks.mid
