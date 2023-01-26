@@ -21,7 +21,7 @@ Kodi Homphothichak . . . Game Artwork
 # -- -- Contributions -- --
 *external contributions are unmodified unless otherwise stated
 
-Yasemin Ozer . . . Contributor (Star Background -- Donation)
+Yasemin Ozer . . . Contributor (Star Background -- Other)
 
 Faylyne . . . Contributor ([Flower Crown Menu Screen -- CC BY 2.0](https://www.flickr.com/photos/bellafaye8/10918036363))
 
@@ -35,7 +35,7 @@ Kenney . . . Contributor ([Roguelike/RPG Tile Pack -- CC 0](https://opengameart.
 
 Kenney . . . Contributor ([RPG Urban Pack -- CC 0](https://opengameart.org/content/rpg-urban-pack))
 
-LordAndiso . . . Contributor ([Fireworks (Song) -- CC BY-NC 4.0](https://www.newgrounds.com/audio/listen/1160376))
+LordAndiso . . . Contributor ([Fireworks (Song) -- Other](https://www.newgrounds.com/audio/listen/1160376))
 
 melanchall . . . Contributor ([DryWetMIDI -- Unity Asset](https://assetstore.unity.com/packages/tools/audio/drywetmidi-222171))
 
@@ -43,4 +43,6 @@ Kevin MacLeod . . . Contributor ([Gymnopedie No. 1 (Song) -- CC BY 4.0](https://
 
 Theodore Palser . . . Contributor ([TV Noise -- CC 0](https://www.publicdomainpictures.net/en/view-image.php?image=201932&picture=tv-noise))
 
-ReinnOfficialTracks . . . Contributor ([My Little Soul (Song) -- CC BY-NC 4.0](https://www.newgrounds.com/audio/listen/1035875))
+ReinnOfficialTracks . . . Contributor ([My Little Soul (Song) -- Other](https://www.newgrounds.com/audio/listen/1035875))
+
+Misti . . . Contributor ([Bad Unicorn Font -- Other](https://www.fontspace.com/bad-unicorn-font-f30198))
