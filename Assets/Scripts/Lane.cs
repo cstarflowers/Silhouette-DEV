@@ -11,6 +11,7 @@ public class Lane : MonoBehaviour
     public GameObject notePrefab;
     List<Note> notes = new List<Note>();
     public List<double> timeStamps = new List<double>();
+    public AudioSource hitSound;
 
     int spawnIndex = 0;
     int inputIndex = 0;
@@ -70,10 +71,13 @@ public class Lane : MonoBehaviour
         }       
     
     }
+    
     private void Hit()
     {
         ScoreManager.Hit();
+        hitSound.Play();
     }
+
     private void Miss()
     {
         ScoreManager.Miss();
