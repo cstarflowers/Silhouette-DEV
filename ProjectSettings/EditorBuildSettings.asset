@@ -24,8 +24,8 @@ EditorBuildSettings:
     path: Assets/Scenes/GameplayDemo.unity
     guid: 089431efa8c3cae4e9bdc22646e9865c
   - enabled: 0
-    path: Assets/Scenes/OpeningScene.unity
-    guid: a36e8fff4ae1b2c43b473bebbdd0efff
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
