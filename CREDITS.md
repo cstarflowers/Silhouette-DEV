@@ -47,4 +47,4 @@ ReinnOfficialTracks . . . Contributor ([My Little Soul (Song) -- Other](https://
 
 Misti . . . Contributor ([Bad Unicorn Font -- Other](https://www.fontspace.com/bad-unicorn-font-f30198))
 
-NoiseCollector . . . Contributor ([Toy Piano Revisited -- CC-BY 3.0](https://freesound.org/search/?q=pianohit&f=grouping_pack:%227839_Toy%20Piano%20Revisited%22+&s=None&g=1&advanced=&a_tag=&a_filename=&a_description=&a_packname=&a_soundid=&a_username=))
+NoiseCollector . . . Contributor ([Toy Piano Revisited -- CC BY 3.0](https://freesound.org/search/?q=pianohit&f=grouping_pack:%227839_Toy%20Piano%20Revisited%22+&s=None&g=1&advanced=&a_tag=&a_filename=&a_description=&a_packname=&a_soundid=&a_username=))
