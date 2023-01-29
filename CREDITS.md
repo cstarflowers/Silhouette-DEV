@@ -46,5 +46,3 @@ Theodore Palser . . . Contributor ([TV Noise -- CC 0](https://www.publicdomainpi
 ReinnOfficialTracks . . . Contributor ([My Little Soul (Song) -- Other](https://www.newgrounds.com/audio/listen/1035875))
 
 Misti . . . Contributor ([Bad Unicorn Font -- Other](https://www.fontspace.com/bad-unicorn-font-f30198))
-
-Unnamed . . . Contributor ([Pixelated Attack/Hit Animations -- CC-BY 4.0](https://opengameart.org/content/pixelated-attackhit-animations))
