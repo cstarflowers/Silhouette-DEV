@@ -47,4 +47,12 @@ ReinnOfficialTracks . . . Contributor ([My Little Soul (Song) -- Other](https://
 
 Misti . . . Contributor ([Bad Unicorn Font -- Other](https://www.fontspace.com/bad-unicorn-font-f30198))
 
-NoiseCollector . . . Contributor ([Toy Piano Revisited -- CC BY 3.0](https://freesound.org/search/?q=pianohit&f=grouping_pack:%227839_Toy%20Piano%20Revisited%22+&s=None&g=1&advanced=&a_tag=&a_filename=&a_description=&a_packname=&a_soundid=&a_username=))
+Imbubec . . . Contributor ([Knife Sounds -- CC 0](https://freesound.org/people/lmbubec/packs/7460/))
+
+MATRIXXX_ . . . Contributor ([Horror Inspect Sound -- CC 0](https://freesound.org/people/MATRIXXX_/sounds/657947/))
+
+MATRIXXX_ . . . Contributor ([Horror Inspect Sound 2 -- CC 0](https://freesound.org/people/MATRIXXX_/sounds/657946/))
+
+PhonosUPF . . Contributor ([Piano Attack Sequence -- CC 0](https://freesound.org/people/PhonosUPF/sounds/488775/))
+
+KiluaBoy . . . Contributor ([Sleep Talking -- CC 0](https://freesound.org/people/KiluaBoy/sounds/431819/))
