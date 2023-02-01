@@ -9,7 +9,9 @@ Thank you for your continued support of our project!
 
 # Development Team
 Works created by the development team can be freely used under the **CC BY-NC 4.0** license, found the in LICENSE.md file. 
+
 ...
+
 
 Mina Seta . . . Programming & Level Design
 
@@ -20,6 +22,7 @@ Kodi Homphothichak . . . Game Artwork
 
 # Contributions
 Each and every one of the works below have unique and separate licenses; licenses, terms, and/or agreements applied to these contributions will not apply to original game content (and vice-versa).
+
 ...
 
 ## Images/Backgrounds
