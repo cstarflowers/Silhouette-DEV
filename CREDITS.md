@@ -3,13 +3,13 @@
 
 To request a removal or addition to this list, please reach out to a developer directly. Similarly, if you'd like to use any of the work listed here yourself, you may speak to the attributed owner regarding licensing agreements. We have permission to use said content in our game.
 
-All externally licensed works (a.k.a. contributions) should be considered to have unique and separate licenses; licenses, terms, and/or agreements applied to content listed here will not apply to original game content (and vice-versa). Unlisted works can be used under license **CC BY-NC 4.0**, which can be found the in LICENSE.md file. 
-
 Thank you for your continued support of our project!
 
 ...
 
 # Development Team
+Works created by the development team can be freely used under the **CC BY-NC 4.0** license, found the in LICENSE.md file. 
+
 
 Mina Seta . . . Programming & Level Design
 
@@ -19,6 +19,8 @@ Kodi Homphothichak . . . Game Artwork
 
 
 # Contributions
+Each and every one of the works below have unique and separate licenses; licenses, terms, and/or agreements applied to these contributions will not apply to original game content (and vice-versa).
+
 
 ## Images/Backgrounds
 Faylyne . . . Contributor ([Flower Crown -- CC BY 2.0](https://www.flickr.com/photos/bellafaye8/10918036363))
