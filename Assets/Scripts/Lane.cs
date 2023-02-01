@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Lane : MonoBehaviour
 {
@@ -11,7 +12,9 @@ public class Lane : MonoBehaviour
     public GameObject notePrefab;
     List<Note> notes = new List<Note>();
     public List<double> timeStamps = new List<double>();
-    public AudioSource hitSound;
+    public AudioSource hitSound1;
+    public AudioSource hitSound2;
+    public AudioSource hitSound3;
 
     int spawnIndex = 0;
     int inputIndex = 0;
@@ -71,11 +74,22 @@ public class Lane : MonoBehaviour
         }       
     
     }
-    
+
     private void Hit()
     {
         ScoreManager.Hit();
-        hitSound.Play();
+        var hitSoundNum = UnityEngine.Random.Range(1,3);
+        switch(hitSoundNum) {
+            case 1:
+                hitSound1.Play();
+                break;
+            case 2:
+                hitSound2.Play();
+                break;
+            case 3:
+                hitSound3.Play();
+                break;
+        }
     }
 
     private void Miss()

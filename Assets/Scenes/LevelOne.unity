@@ -685,12 +685,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7261b26588d67549b92e97a22a66067, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprite: {fileID: 21300002, guid: 9d063b79be80b2b4886e4c74b45f8a29, type: 3}
   noteRestriction: 7
   input: 274
   notePrefab: {fileID: 2294829649636362544, guid: 7efa42f7fc51a134888e2f5a0cd7867d, type: 3}
   timeStamps: []
-  hitSound: {fileID: 1668906104}
+  hitSound1: {fileID: 1360057097}
+  hitSound2: {fileID: 399073249}
+  hitSound3: {fileID: 1668906104}
 --- !u!1 &399073248
 GameObject:
   m_ObjectHideFlags: 0
@@ -718,7 +719,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 820d021c50c8cb64e825db064a256802, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 9dc7dec5fa272c345ae70352f069a6cb, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.3
   m_Pitch: 1
@@ -1036,12 +1037,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7261b26588d67549b92e97a22a66067, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprite: {fileID: 21300002, guid: 9d063b79be80b2b4886e4c74b45f8a29, type: 3}
   noteRestriction: 11
   input: 275
   notePrefab: {fileID: 4953454988957758117, guid: 82cd79c0d882020479b0decff65dd1ee, type: 3}
   timeStamps: []
-  hitSound: {fileID: 1668906104}
+  hitSound1: {fileID: 1360057097}
+  hitSound2: {fileID: 399073249}
+  hitSound3: {fileID: 1668906104}
 --- !u!1 &515992356
 GameObject:
   m_ObjectHideFlags: 0
@@ -1321,12 +1323,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7261b26588d67549b92e97a22a66067, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprite: {fileID: 21300002, guid: 9d063b79be80b2b4886e4c74b45f8a29, type: 3}
   noteRestriction: 9
   input: 273
   notePrefab: {fileID: 3643800612933301460, guid: fd8ebfa3a11d4374681f7d0f6c031ab4, type: 3}
   timeStamps: []
-  hitSound: {fileID: 1668906104}
+  hitSound1: {fileID: 1360057097}
+  hitSound2: {fileID: 399073249}
+  hitSound3: {fileID: 1668906104}
 --- !u!1 &786516796
 GameObject:
   m_ObjectHideFlags: 0
@@ -1837,7 +1840,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: cb7f835112f1738489401289222f4c5a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e7f3be23bb06cb748b86913f5007fa37, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.3
   m_Pitch: 1
@@ -1982,12 +1985,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7261b26588d67549b92e97a22a66067, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSprite: {fileID: 21300002, guid: 9d063b79be80b2b4886e4c74b45f8a29, type: 3}
   noteRestriction: 5
   input: 276
   notePrefab: {fileID: 3913686208027218028, guid: 2c00a5ebf939b6447b32969530cd9ec3, type: 3}
   timeStamps: []
-  hitSound: {fileID: 1668906104}
+  hitSound1: {fileID: 1360057097}
+  hitSound2: {fileID: 399073249}
+  hitSound3: {fileID: 1668906104}
 --- !u!1 &1635689487
 GameObject:
   m_ObjectHideFlags: 0
@@ -2142,7 +2146,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 2be806d4abdc3d446abf52a97732a0ba, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c046d7c65ca47fd419c9fc5d63fc0fdb, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.3
   m_Pitch: 1
@@ -2355,8 +2359,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -24, y: -47}
-  m_SizeDelta: {x: 140.5293, y: 77.30682}
+  m_AnchoredPosition: {x: -38, y: -35}
+  m_SizeDelta: {x: 174.0827, y: 94.929}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1756815064
 CanvasRenderer:
