@@ -8,7 +8,7 @@ Thank you for your continued support of our project!
 ...
 
 # Development Team
-Works created by the development team can be freely used under the **CC BY-NC 4.0** license, found the in LICENSE.md file. 
+Works created by the development team can be freely used under the **CC BY-NC 4.0** license, found in the LICENSE.md file. 
 
 ...
 
