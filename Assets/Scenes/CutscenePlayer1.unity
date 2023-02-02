@@ -357,7 +357,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 5
-  newLevel: LevelOne
+  newLevel: ShroomWorld
 --- !u!1 &734578747
 GameObject:
   m_ObjectHideFlags: 0

@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RoomOne.unity
     guid: d0bd6176f4cef374aab3ad506d778449
+  - enabled: 1
+    path: Assets/Scenes/ShroomWorld.unity
+    guid: 70674c24cdc0dc04bb1d1fb0762e166e
   - enabled: 0
     path: Assets/Scenes/GameplayDemo.unity
     guid: 089431efa8c3cae4e9bdc22646e9865c

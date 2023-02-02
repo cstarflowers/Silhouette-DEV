@@ -1278,7 +1278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 138
-  newLevel: BrainWorld
+  newLevel: ShroomWorld
 --- !u!1 &780492653
 GameObject:
   m_ObjectHideFlags: 0
