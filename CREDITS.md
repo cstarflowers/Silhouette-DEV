@@ -1,27 +1,8 @@
-## Credits
+## Contributions
 ...
-
-To request a removal or addition to this list, please reach out to a developer directly. Similarly, if you'd like to use any of the work listed here yourself, you may speak to the attributed owner regarding licensing agreements. We have permission to use said content in our game.
+All the works you see below are used under license. Every one should be considered to have a unique and separate licensing agreement; these licenses and their terms will not apply to other content.
 
 Thank you for your continued support of our project!
-
-...
-
-# Development Team
-Works created by the development team can be freely used under the **CC BY-NC 4.0** license, found in the LICENSE.md file. 
-
-...
-
-
-Mina Seta . . . Programming & Level Design
-
-Carson Stary . . . Programming & Story Creation
-
-Kodi Homphothichak . . . Game Artwork
-
-
-# Contributions
-Each and every one of the works below have unique and separate licenses; licenses, terms, and/or agreements applied to these contributions will not apply to original game content (and vice-versa).
 
 ...
 
