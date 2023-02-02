@@ -7,6 +7,7 @@ public class SceneLoader : MonoBehaviour
     public string newLevel;
     // public float delay;
     public float fadeSpeed;
+    public AudioSource interactSound;
 
     void Start()
     {
@@ -24,6 +25,7 @@ public class SceneLoader : MonoBehaviour
         {
             // SceneManager.LoadScene(NewLevel);
             Initiate.Fade(newLevel,Color.black,fadeSpeed);
+            interactSound.Play();
         }
     }
 }

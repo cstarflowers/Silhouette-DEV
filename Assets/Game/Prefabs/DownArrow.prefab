@@ -161,4 +161,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 235893afd229e4145a1449d49066b2b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hitSprite: {fileID: 21300000, guid: cacc39dd2a4e88a43aadeddd73e9b1e2, type: 3}
   assignedTime: 0
+  direction: 

@@ -94,11 +94,7 @@ public class SongManager : MonoBehaviour
 
         foreach (var lane in lanes) lane.SetTimeStamps(array);
 
-        Invoke(nameof(StartSong), delay);
-    }
-    public void StartSong()
-    {
-        audioSource.Play();
+        // Invoke(nameof(StartSong), delay);
     }
     public static double GetAudioSourceTime()
     {

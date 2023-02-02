@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class EnemyHit : MonoBehaviour
 {
+    private bool isColliding;
     public string newLevel;
     private GameObject player;
 
@@ -13,10 +14,24 @@ public class EnemyHit : MonoBehaviour
         // Physics.IgnoreLayerCollision(0, 3);
     }
 
-    void OnTriggerStay2D(Collider2D other)
+    void Update() {
+        if(Input.GetKeyDown(KeyCode.Return)) {
+            if(isColliding) {
+                Initiate.Fade(newLevel,Color.black,1);
+            }
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.name == "Player" && Input.GetKeyDown(KeyCode.Return)) {
-            Initiate.Fade(newLevel,Color.black,1);
+        if(other.gameObject.name == "Player") {
+            isColliding = true;
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other) {
+        if(other.gameObject.name == "Player") {
+            isColliding = false;
         }
     }
 }

@@ -1,8 +1,6 @@
 # Silhouette 
 _YLP10_, Computer Science @ Ignite
 
-// NOTE: Silhouette is now running on Unity version 2022.2.1f1 (from 2021.3.10f1) -- please update your clients :)
-
 ## Information
 A game created by: 
 - Mina Seta
@@ -10,6 +8,6 @@ A game created by:
 - Kodi Homphothichak
 
 ## What is Silhouette?
-Silhouette is a rhythm-based RPG game project, following our main character and the world inside their brain. As the result of a tragic accident, they have ended up trapped in a coma, alongside their best dreams and worst nightmares. Help our main character by uncovering the truth and coming back to the real world again OR choosing to stay in the land of your dreams, where anything can happen. Their fate lies in your hands.
+Silhouette is a rhythm-based RPG game, following our main character and the escapist world of music inside their mind. As the result of neglect, hatred, and isolation, they often find themselves in the world of their dreams, alongside their highest hopes and worst nightmares. Help our main character complete this musical journey through their mind by uncovering the truth and coming to realize what it truly means to set yourself free. Their fate lies in your hands.
 
 **DOWNLOAD COMING SOON**
