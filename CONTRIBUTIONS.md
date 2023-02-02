@@ -1,9 +1,9 @@
 ## Contributions
 ...
 
-All of the works you see below are used under license. Every one should be considered to have a unique and separate licensing agreement; these licenses and their terms will not apply to other content.
+All of the contributions you see below are used under license. Each and every one should be considered to have a unique and separate licensing agreement; these licenses and their terms will not apply to content other than the specific works themselves.
 
-Thank you for your continued support of our project!
+Thank you for your continued support of our project! With any questions, feel free to reach out to us through this repository.
 
 ...
 
