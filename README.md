@@ -1,8 +1,6 @@
 # Silhouette 
 _YLP10_, Computer Science @ Ignite
 
-// NOTE: Silhouette is now running on Unity version 2022.2.1f1 (from 2021.3.10f1) -- please update your clients :)
-
 ## Information
 A game created by: 
 - Mina Seta
