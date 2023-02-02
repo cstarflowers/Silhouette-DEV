@@ -1,3 +1,4 @@
+# License
 **Let it be known that the following license solely applies to content created by the development team for use in this project. If game content in this project has already been licensed by another creator, you are still required to uphold the terms of their license(s). For a list of works that fall under this category, please see the CONTRIBUTIONS.md file.**
 
 =======================================================================
