@@ -9,7 +9,7 @@ Faylyne . . . Contributor ([Flower Crown -- CC BY 2.0](https://www.flickr.com/ph
 
 Theodore Palser . . . Contributor ([TV Noise -- CC 0](https://www.publicdomainpictures.net/en/view-image.php?image=201932&picture=tv-noise))
 
-Yasemin Ozer . . . Contributor ([Star Background -- Other](https://media.discordapp.net/attachments/549295098387628032/1070555543162331156/silhouette20opening.
+Yasemin Ozer . . . Contributor ([Star Background -- Other](https://media.discordapp.net/attachments/549295098387628032/1070555543162331156/silhouette20opening.mov))
 
 ## Music/SFX
 Imbubec . . . Contributor ([Knife Sounds -- CC 0](https://freesound.org/people/lmbubec/packs/7460/))
@@ -35,14 +35,10 @@ Kenney . . . Contributor ([RPG Urban Pack -- CC 0](https://opengameart.org/conte
 
 Kenney . . . Contributor ([Roguelike/RPG Tile Pack -- CC 0](https://opengameart.org/content/roguelikerpg-pack-1700-tiles))
 
-f19729))
-
-mov))
-
 ## Fonts
 Misti . . . Contributor ([Bad Unicorn Font -- Other](https://www.fontspace.com/bad-unicorn-font-f30198))
 
-carolyn . . . Contributor ([Carolyn Handwritten Font -- Freeware](https://www.fontspace.com/carolyn-handwritten-font-
+carolyn . . . Contributor ([Carolyn Handwritten Font -- Freeware](https://www.fontspace.com/carolyn-handwritten-font-f19729))
 
 ## Development Tools
 melanchall . . . Contributor ([DryWetMIDI -- Unity Asset](https://assetstore.unity.com/packages/tools/audio/drywetmidi-222171))
