@@ -36,7 +36,9 @@ WaxTerK . . . Contributor ([Raindrops -- CC BY-SA 3.0](https://www.newgrounds.co
 
 Lucasberry . . . Contributor ([Sunrays [16-bit] ★ -- CC BY-SA 3.0](https://www.newgrounds.com/audio/listen/1178830))
 
-ForgottenDawn . . . Contribution ([FD - Pale Sun -- CC BY 3.0](https://www.newgrounds.com/audio/listen/1182608))
+ForgottenDawn . . . Contributor ([FD - Pale Sun -- CC BY 3.0](https://www.newgrounds.com/audio/listen/1182608))
+
+GlowBoyMusic . . . Contributor ([Serenade -- CC BY-NC-ND 3.0)(https://www.newgrounds.com/audio/listen/1110611))
 
 ## World Building 
 Kenney . . . Contributor ([RPG Urban Pack -- CC 0](https://opengameart.org/content/rpg-urban-pack))
