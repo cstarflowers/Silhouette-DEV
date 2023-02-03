@@ -42,6 +42,8 @@ GlowBoyMusic . . . Contributor ([Serenade -- CC BY-NC-ND 3.0](https://www.newgro
 
 shadow6nothing9 . . . Contributor ([-The Carnival Floor- -- CC BY-NC-ND 3.0](https://www.newgrounds.com/audio/listen/279237))
 
+Victor_Natas . . . Contributor ([Mysterious music -- CC 0](https://freesound.org/people/Victor_Natas/sounds/554742/))
+
 ## World Building 
 Kenney . . . Contributor ([RPG Urban Pack -- CC 0](https://opengameart.org/content/rpg-urban-pack))
 
