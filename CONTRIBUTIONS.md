@@ -32,6 +32,8 @@ Xorberax . . . Contributor ([Imaginary Flowers -- CC BY-NC-SA 3.0](https://www.n
 
 EdenGD . . . Contributor ([Morphing -- CC BY-SA 3.0](https://www.newgrounds.com/audio/listen/1183064))
 
+WaxTerK . . . Contributor ([Raindrops -- CC BY-SA 3.0](https://www.newgrounds.com/audio/listen/1163732))
+
 ## World Building 
 Kenney . . . Contributor ([RPG Urban Pack -- CC 0](https://opengameart.org/content/rpg-urban-pack))
 
