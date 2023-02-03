@@ -30,7 +30,7 @@ ReinnOfficialTracks . . . Contributor ([My Little Soul -- Other](https://www.new
 
 Xorberax . . . Contributor ([Imaginary Flowers -- CC BY-NC-SA 3.0](https://www.newgrounds.com/audio/listen/1132211))
 
-EdenGD . . . Contributor [(Morphing -- CC BY-SA 3.0](https://www.newgrounds.com/audio/listen/1183064))
+EdenGD . . . Contributor ([Morphing -- CC BY-SA 3.0](https://www.newgrounds.com/audio/listen/1183064))
 
 ## World Building 
 Kenney . . . Contributor ([RPG Urban Pack -- CC 0](https://opengameart.org/content/rpg-urban-pack))
