@@ -40,6 +40,8 @@ ForgottenDawn . . . Contributor ([FD - Pale Sun -- CC BY 3.0](https://www.newgro
 
 GlowBoyMusic . . . Contributor ([Serenade -- CC BY-NC-ND 3.0](https://www.newgrounds.com/audio/listen/1110611))
 
+shadow6nothing9 . . . Contributor ([-The Carnival Floor- -- CC BY-NC-ND 3.0](https://www.newgrounds.com/audio/listen/279237))
+
 ## World Building 
 Kenney . . . Contributor ([RPG Urban Pack -- CC 0](https://opengameart.org/content/rpg-urban-pack))
 
