@@ -34,6 +34,8 @@ EdenGD . . . Contributor ([Morphing -- CC BY-SA 3.0](https://www.newgrounds.com/
 
 WaxTerK . . . Contributor ([Raindrops -- CC BY-SA 3.0](https://www.newgrounds.com/audio/listen/1163732))
 
+Lucasberry . . . Contributor ([Sunrays [16-bit] ★ -- CC BY-SA 3.0](https://www.newgrounds.com/audio/listen/1178830))
+
 ## World Building 
 Kenney . . . Contributor ([RPG Urban Pack -- CC 0](https://opengameart.org/content/rpg-urban-pack))
 
