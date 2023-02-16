@@ -11,6 +11,8 @@ Theodore Palser . . . Contributor ([TV Noise -- CC 0](https://www.publicdomainpi
 
 Yasemin Ozer . . . Contributor ([Star Background -- Other](https://media.discordapp.net/attachments/549295098387628032/1070555543162331156/silhouette20opening.mov))
 
+Life Of Pix . . . Contributor ([Clear Wine Glass on Table -- CC 0](https://www.pexels.com/photo/clear-wine-glass-on-table-67468/))
+
 ## Music/SFX
 Imbubec . . . Contributor ([Knife Sounds -- CC 0](https://freesound.org/people/lmbubec/packs/7460/))
 
