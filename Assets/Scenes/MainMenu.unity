@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2353212
 RectTransform:
   m_ObjectHideFlags: 0
@@ -362,7 +362,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3, y: -53.9999}
+  m_AnchoredPosition: {x: -3, y: -29}
   m_SizeDelta: {x: 1223.0122, y: 80.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &210401703
@@ -555,13 +555,12 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1644473234}
   - {fileID: 2353212}
   - {fileID: 1115307728}
   - {fileID: 210401702}
   - {fileID: 1462290587}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -603,7 +602,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10.999924, y: 81.0001}
+  m_AnchoredPosition: {x: 10.999924, y: 105.99999}
   m_SizeDelta: {x: 1127.7334, y: 330.7139}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1115307729
@@ -619,14 +618,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5604458, g: 0.54901963, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e8a4bb40e8d558e41911e786587bdbe1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 195261ba548e4f744a8733d6f4ba2250, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -765,7 +764,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1202181499}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 537, y: 428, z: -105.85157}
+  m_LocalPosition: {x: 627, y: 311, z: -105.85157}
   m_LocalScale: {x: 1.05852, y: 1.05852, z: 1.05852}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -801,16 +800,16 @@ RectTransform:
   m_GameObject: {fileID: 1462290586}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1426.8461, y: 535.0673, z: 0}
+  m_LocalScale: {x: 2000, y: 1400, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 868923852}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 28.090942, y: 220.71521}
-  m_SizeDelta: {x: -1824, y: -1062}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -8, y: -50}
+  m_SizeDelta: {x: 97, y: -534}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!328 &1462290588
 VideoPlayer:
@@ -820,7 +819,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1462290586}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: d4d7e94aa11c29b4cbaf8df651d3b396, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: e17c7862b0b89434ea847a27e0a480ee, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -945,12 +944,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1644473233}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -37.900707, y: 201.09613, z: -17.835577}
+  m_LocalPosition: {x: 582, y: 280, z: -17.835577}
   m_LocalScale: {x: 1.7835577, y: 1.7835577, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 868923852}
-  m_RootOrder: -1
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!81 &1644473236
 AudioListener:
@@ -969,7 +968,7 @@ Camera:
   m_GameObject: {fileID: 1644473233}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -995,7 +994,7 @@ Camera:
   far clip plane: 1000
   field of view: 175
   orthographic: 1
-  orthographic size: 120
+  orthographic size: 277.26666
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
