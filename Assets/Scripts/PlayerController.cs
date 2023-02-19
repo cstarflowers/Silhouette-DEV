@@ -10,6 +10,7 @@ private Animator animator;
 private Vector2 direction;
 
 void Start() {
+    Application.targetFrameRate = 60;
     animator = GetComponent<Animator>();
     player = GetComponent<Rigidbody2D>();
 

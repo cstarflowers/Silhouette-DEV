@@ -10,6 +10,7 @@ public class Note : MonoBehaviour
 
     void Start()
     {
+        Application.targetFrameRate = 60;
         timeInstantiated = SongManager.GetAudioSourceTime();
         if (this.gameObject.name.Contains("Up")) {
             direction = "up";
@@ -22,6 +23,9 @@ public class Note : MonoBehaviour
         }
         else if (this.gameObject.name.Contains("Right")) {
             direction = "right";
+        }
+        else if(this.gameObject.name.Contains("Hit")) {
+            direction = "none";
         }
     }
 

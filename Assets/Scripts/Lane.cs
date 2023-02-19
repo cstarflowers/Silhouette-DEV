@@ -15,6 +15,7 @@ public class Lane : MonoBehaviour
     public AudioSource hitSound1;
     public AudioSource hitSound2;
     public AudioSource hitSound3;
+    public GameObject hitEffect;
 
     int spawnIndex = 0;
     int inputIndex = 0;
@@ -55,6 +56,7 @@ public class Lane : MonoBehaviour
                 if (Math.Abs(audioTime - timeStamp) < marginOfError)
                 {
                     Hit();
+                    Instantiate(hitEffect, notes[inputIndex].transform.position, notes[inputIndex].transform.rotation);
                     // print($"Hit on {inputIndex} note");
                     Destroy(notes[inputIndex].gameObject);
                     inputIndex++;
