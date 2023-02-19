@@ -56,6 +56,8 @@ Misti . . . Contributor ([Bad Unicorn Font -- Other](https://www.fontspace.com/b
 
 carolyn . . . Contributor ([Carolyn Handwritten Font -- Freeware](https://www.fontspace.com/carolyn-handwritten-font-f19729))
 
+OUBYC_FONTunik . . . Contributor ([love of love by OUBYC Font -- Freeware](https://www.fontspace.com/love-of-love-by-oubyc-font-f16032))
+
 ## Development Tools
 melanchall . . . Contributor ([DryWetMIDI -- Unity Asset](https://assetstore.unity.com/packages/tools/audio/drywetmidi-222171))
 
