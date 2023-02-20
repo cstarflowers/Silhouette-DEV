@@ -8,6 +8,7 @@ public class EnemyHit : MonoBehaviour
     private bool isColliding;
     public string newLevel;
     private GameObject player;
+    public AudioSource interactSound;
 
     private void Start() {
         player = GameObject.FindWithTag("Player");
@@ -17,6 +18,7 @@ public class EnemyHit : MonoBehaviour
     void Update() {
         if(Input.GetKeyDown(KeyCode.Return)) {
             if(isColliding) {
+                interactSound.Play();
                 Initiate.Fade(newLevel,Color.black,1);
             }
         }
