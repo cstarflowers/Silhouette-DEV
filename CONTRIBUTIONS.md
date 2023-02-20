@@ -42,6 +42,8 @@ shadow6nothing9 . . . Contributor ([-The Carnival Floor- -- CC BY-NC-ND 3.0](htt
 
 straget . . . Contributor ([The rain falls against the parasol - CC BY 4.0](https://freesound.org/people/straget/sounds/531947/))
 
+tams_kp . . . Contributor ([typewriter19.ogg -- CC 0](https://freesound.org/people/tams_kp/sounds/43559/))
+
 Victor_Natas . . . Contributor ([Mysterious music -- CC 0](https://freesound.org/people/Victor_Natas/sounds/554742/))
 
 WaxTerK . . . Contributor ([Raindrops -- CC BY-SA 3.0](https://www.newgrounds.com/audio/listen/1163732))
