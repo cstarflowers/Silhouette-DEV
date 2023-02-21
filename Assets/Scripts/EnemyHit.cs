@@ -16,7 +16,7 @@ public class EnemyHit : MonoBehaviour
     }
 
     void Update() {
-        if(Input.GetKeyDown(KeyCode.Return)) {
+        if(Input.GetKeyDown(KeyCode.Return) || Input.GetMouseButtonDown(0)) {
             if(isColliding) {
                 interactSound.Play();
                 Initiate.Fade(newLevel,Color.black,1);

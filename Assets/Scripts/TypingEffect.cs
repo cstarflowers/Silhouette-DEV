@@ -5,8 +5,9 @@ using TMPro;
 
 public class TypingEffect : MonoBehaviour {
     public float delay = 0.1f;
-    public string text;
     private string currentText = " ";
+
+    public string[] textArray;
 
     public TextMeshProUGUI textObject;
     public AudioSource textSound;
@@ -14,6 +15,7 @@ public class TypingEffect : MonoBehaviour {
 
     private bool isColliding;
     private bool inUse = false;
+    private int onText = 0;
     public GameObject player;
 
     void Start() {
@@ -21,28 +23,24 @@ public class TypingEffect : MonoBehaviour {
     }
 
     void Update() {
-        if(Input.GetKeyDown(KeyCode.Return)) {
+        if(Input.GetKeyDown(KeyCode.Return) || Input.GetMouseButtonDown(0)) {
             if(isColliding && !inUse) {
-                StartCoroutine(showText(text + "      ."));
-                inUse = true;
+                if(textArray[onText].ToString() == "STOP") {
+                    dialogueBox.SetActive(false);
+                    player.GetComponent<PlayerController>().enabled = true;
+                    onText = 0;
+                }
+                else {
+                    currentText = " ";
+                    StartCoroutine(showText(textArray[onText] + "      ."));
+                    onText += 1;
+                }
             }
         }
     }
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if(other.gameObject.name == "Player") {
-            isColliding = true;
-        }
-    }
-
-    void OnTriggerExit2D(Collider2D other) {
-        if(other.gameObject.name == "Player") {
-            isColliding = false;
-        }
-    }
-
     public IEnumerator showText(string displayText) {
+        inUse = true;
         player.GetComponent<PlayerController>().enabled = false;
         dialogueBox.SetActive(true);
         textSound.Play();
@@ -52,8 +50,21 @@ public class TypingEffect : MonoBehaviour {
             yield return new WaitForSeconds(delay);
         }
         textSound.Pause();
-        dialogueBox.SetActive(false);
-        player.GetComponent<PlayerController>().enabled = true;
         inUse = false;
+    }
+
+    void OnTriggerEnter2D(Collider2D other) {
+        if(other.gameObject.name == "Player") {
+            isColliding = true;
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other) {
+        if(other.gameObject.name == "Player") {
+            isColliding = false;
+            dialogueBox.SetActive(false);
+            player.GetComponent<PlayerController>().enabled = true;
+            onText = 0;
+        }
     }
 }
