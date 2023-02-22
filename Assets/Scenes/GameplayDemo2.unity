@@ -1364,7 +1364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 121506}
   comboText: {fileID: 1100877183}
-  HP: 100000
+  HPInEditor: 100000
 --- !u!4 &786516798
 Transform:
   m_ObjectHideFlags: 0

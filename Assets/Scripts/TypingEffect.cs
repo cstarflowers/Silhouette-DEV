@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 
 public class TypingEffect : MonoBehaviour {
-    public float delay = 0.1f;
+    public float delay = 0.05f;
     private string currentText = " ";
 
     public string[] textArray;
@@ -30,9 +30,15 @@ public class TypingEffect : MonoBehaviour {
                     player.GetComponent<PlayerController>().enabled = true;
                     onText = 0;
                 }
-                else {
+                if(textArray[onText].ToString() == "GOTO NEXT") {
+                    dialogueBox.SetActive(false);
+                    player.GetComponent<PlayerController>().enabled = true;
+                    Initiate.Fade(textArray[onText+1].ToString(),Color.black,30);
+                    onText = 0;
+                }
+                else if(textArray[onText].ToString() != "STOP" && textArray[onText].ToString() != "GOTO NEXT") {
                     currentText = " ";
-                    StartCoroutine(showText(textArray[onText] + "      ."));
+                    StartCoroutine(showText(textArray[onText]));
                     onText += 1;
                 }
             }
