@@ -25,12 +25,15 @@ public class TypingEffect : MonoBehaviour {
     void Update() {
         if(Input.GetKeyDown(KeyCode.Return) || Input.GetMouseButtonDown(0)) {
             if(isColliding && !inUse) {
-                if(textArray[onText].ToString() == "STOP") {
-                    dialogueBox.SetActive(false);
-                    player.GetComponent<PlayerController>().enabled = true;
+                if(onText == -1) {
                     onText = 0;
                 }
-                if(textArray[onText].ToString() == "GOTO NEXT") {
+                else if(textArray[onText].ToString() == "STOP") {
+                    dialogueBox.SetActive(false);
+                    player.GetComponent<PlayerController>().enabled = true;
+                    onText = -1;
+                }
+                else if(textArray[onText].ToString() == "GOTO NEXT") {
                     dialogueBox.SetActive(false);
                     player.GetComponent<PlayerController>().enabled = true;
                     Initiate.Fade(textArray[onText+1].ToString(),Color.black,30);
@@ -50,7 +53,7 @@ public class TypingEffect : MonoBehaviour {
         player.GetComponent<PlayerController>().enabled = false;
         dialogueBox.SetActive(true);
         textSound.Play();
-        for(int i = 0; i < displayText.Length; i++) {
+        for(int i = 0; i <= displayText.Length; i++) {
             currentText = displayText.Substring(0,i);
             textObject.text = currentText;
             yield return new WaitForSeconds(delay);
