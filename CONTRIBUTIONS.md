@@ -9,6 +9,8 @@ Faylyne . . . Contributor ([Flower Crown -- CC BY 2.0](https://www.flickr.com/ph
 
 Life Of Pix . . . Contributor ([Clear Wine Glass on Table -- CC 0](https://www.pexels.com/photo/clear-wine-glass-on-table-67468/))
 
+Pixabay . . . Contributor ([Closeup of Four White Mushrooms -- CC 0](https://www.pexels.com/photo/forest-fungus-landscape-moss-361186/))
+
 Theodore Palser . . . Contributor ([TV Noise -- CC 0](https://www.publicdomainpictures.net/en/view-image.php?image=201932&picture=tv-noise))
 
 Yasemin Ozer . . . Contributor ([Star Background -- Other](https://media.discordapp.net/attachments/549295098387628032/1070555543162331156/silhouette20opening.mov))
