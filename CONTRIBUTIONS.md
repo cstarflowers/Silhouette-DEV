@@ -18,6 +18,8 @@ Yasemin Ozer . . . Contributor ([Star Background -- Other](https://media.discord
 ## Music/SFX
 EdenGD . . . Contributor ([Morphing -- CC BY-SA 3.0](https://www.newgrounds.com/audio/listen/1183064))
 
+Epikuro . . . Contributor ([Treasure Reflections (Jamuary Day 5) -- Other](https://www.newgrounds.com/audio/listen/1185201))
+
 ForgottenDawn . . . Contributor ([FD - Pale Sun -- CC BY 3.0](https://www.newgrounds.com/audio/listen/1182608))
 
 GlowBoyMusic . . . Contributor ([Serenade -- CC BY-NC-ND 3.0](https://www.newgrounds.com/audio/listen/1110611))
