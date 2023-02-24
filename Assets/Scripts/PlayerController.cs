@@ -6,8 +6,8 @@ public class PlayerController : MonoBehaviour {
 
 public float speed;
 private Rigidbody2D player;
-private Animator animator;
-private Vector2 direction;
+public static Animator animator;
+public static Vector2 direction;
 
 void Start() {
     Application.targetFrameRate = 60;

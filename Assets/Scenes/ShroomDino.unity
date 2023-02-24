@@ -1280,7 +1280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 80
-  newLevel: ShroomWorld
+  newLevel: WinScreen
 --- !u!1 &780492653
 GameObject:
   m_ObjectHideFlags: 0

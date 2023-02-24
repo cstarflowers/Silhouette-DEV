@@ -1279,8 +1279,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cbc7935c3ba41143a6d4a0b04b4c82f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 138
-  newLevel: ShroomWorld
+  delay: 140
+  newLevel: WinScreen
 --- !u!1 &780492653
 GameObject:
   m_ObjectHideFlags: 0

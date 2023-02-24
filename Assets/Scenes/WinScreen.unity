@@ -802,7 +802,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7bc9e92ddeb8c1429fc9b0a20ce43ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newLevel: RoomOne
+  newLevel: ShroomWorld
   fadeSpeed: 1
   interactSound: {fileID: 40886965}
 --- !u!81 &1461075405
@@ -1021,6 +1021,7 @@ GameObject:
   - component: {fileID: 2038498640}
   - component: {fileID: 2038498642}
   - component: {fileID: 2038498641}
+  - component: {fileID: 2038498643}
   m_Layer: 5
   m_Name: Score
   m_TagString: Untagged
@@ -1145,6 +1146,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2038498639}
   m_CullTransparentMesh: 1
+--- !u!114 &2038498643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038498639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a57eb4e9d5e04d42bc0b293671eba39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  statusText: {fileID: 210401703}
+  hitText: {fileID: 497490370}
+  missText: {fileID: 2123445184}
+  scoreText: {fileID: 2038498641}
 --- !u!1 &2123445182
 GameObject:
   m_ObjectHideFlags: 0

@@ -50,7 +50,7 @@ public class TypingEffect : MonoBehaviour {
 
     public IEnumerator showText(string displayText) {
         inUse = true;
-        player.GetComponent<PlayerController>().enabled = false;
+        disableMovement();
         dialogueBox.SetActive(true);
         textSound.Play();
         for(int i = 0; i <= displayText.Length; i++) {
@@ -75,5 +75,14 @@ public class TypingEffect : MonoBehaviour {
             player.GetComponent<PlayerController>().enabled = true;
             onText = 0;
         }
+    }
+
+    void disableMovement() {
+        player.GetComponent<PlayerController>().enabled = false;
+        PlayerController.direction = new Vector2(0,0);
+        PlayerController.animator.SetBool("walkingLeft", false);
+        PlayerController.animator.SetBool("walkingRight", false);
+        PlayerController.animator.SetBool("walkingForward", false);
+        PlayerController.animator.SetBool("walkingBackward", false);
     }
 }

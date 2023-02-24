@@ -7,14 +7,15 @@ public class ScoreManager : MonoBehaviour
     public static ScoreManager Instance;
     public TMPro.TextMeshPro scoreText;
     public TMPro.TextMeshPro comboText;
-    static int comboScore;
-    static float adjScore;
-    public float HPInEditor;
-    static float HP;
+    public static int comboScore;
+    public static float adjScore;
+    public static float HP;
 
-    static int missCount = 0;
-    static int hitCount = 0;
-    static int maxCombo = 0;
+    public float HPInEditor;
+
+    public static int missCount = 0;
+    public static int hitCount = 0;
+    public static int maxCombo = 0;
 
     void Start()
     {
@@ -50,13 +51,7 @@ public class ScoreManager : MonoBehaviour
     {
         scoreText.text = adjScore + "/" + HP + " (" + (Mathf.Round((adjScore/HP) * 100)) + "%)";
         comboText.text = comboScore + "\n COMBO!";
-        // print(adjScore + "/" + HP + " = " + (Mathf.Round((adjScore/HP) * 100)) + "%");
-        // scoreText.text = adjScore.ToString();
-        Debug.Log("Miss Count: " + missCount + ", Hit Count: " + hitCount);
-        Debug.Log("Highest Combo: " + maxCombo);
-
-        //if(adjScore >= HP) {
-            
-        //}
+        //Debug.Log("Miss Count: " + missCount + ", Hit Count: " + hitCount);
+        //Debug.Log("Highest Combo: " + maxCombo);
     }
 }
