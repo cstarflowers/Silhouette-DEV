@@ -38,6 +38,8 @@ MATRIXXX_ . . . Contributor ([Horror Inspect Sound -- CC 0](https://freesound.or
 
 MATRIXXX_ . . . Contributor ([Horror Inspect Sound 2 -- CC 0](https://freesound.org/people/MATRIXXX_/sounds/657946/))
 
+Mrickey13 . . . Contributor ([Fight Win Tune -- CC 0](https://freesound.org/people/mrickey13/sounds/518855/))
+
 PhonosUPF . . Contributor ([Piano Attack Sequence -- CC 0](https://freesound.org/people/PhonosUPF/sounds/488775/))
 
 ReinnOfficialTracks . . . Contributor ([My Little Soul -- Other](https://www.newgrounds.com/audio/listen/1035875))
