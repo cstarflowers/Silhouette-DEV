@@ -29,18 +29,19 @@ public class TypingEffect : MonoBehaviour {
                     onText = 0;
                 }
                 else if(textArray[onText].ToString() == "STOP") {
+                    textSound.Stop();
                     dialogueBox.SetActive(false);
                     player.GetComponent<PlayerController>().enabled = true;
                     onText = -1;
                 }
                 else if(textArray[onText].ToString() == "GOTO NEXT") {
+                    textSound.Stop();
                     dialogueBox.SetActive(false);
+                    onText = 0;
                     player.GetComponent<PlayerController>().enabled = true;
                     Initiate.Fade(textArray[onText+1].ToString(),Color.black,30);
-                    onText = 0;
                 }
                 else if(textArray[onText].ToString() != "STOP" && textArray[onText].ToString() != "GOTO NEXT") {
-                    currentText = " ";
                     StartCoroutine(showText(textArray[onText]));
                     onText += 1;
                 }
@@ -51,6 +52,7 @@ public class TypingEffect : MonoBehaviour {
     public IEnumerator showText(string displayText) {
         inUse = true;
         disableMovement();
+        currentText = " ";
         dialogueBox.SetActive(true);
         textSound.Play();
         for(int i = 0; i <= displayText.Length; i++) {
@@ -58,7 +60,7 @@ public class TypingEffect : MonoBehaviour {
             textObject.text = currentText;
             yield return new WaitForSeconds(delay);
         }
-        textSound.Pause();
+        textSound.Stop();
         inUse = false;
     }
 
