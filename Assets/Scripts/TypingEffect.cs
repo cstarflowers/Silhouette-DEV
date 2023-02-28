@@ -16,10 +16,14 @@ public class TypingEffect : MonoBehaviour {
     private bool isColliding;
     private bool inUse = false;
     private int onText = 0;
-    public GameObject player;
+    public Rigidbody2D player;
+
+    private PlayerController playerController;
 
     void Start() {
-        player = GameObject.FindWithTag("Player");
+        // player = GameObject.FindWithTag("Player");
+        playerController = player.GetComponent<PlayerController>();
+
     }
 
     void Update() {
@@ -31,15 +35,16 @@ public class TypingEffect : MonoBehaviour {
                 else if(textArray[onText].ToString() == "STOP") {
                     textSound.Stop();
                     dialogueBox.SetActive(false);
-                    player.GetComponent<PlayerController>().enabled = true;
+                    playerController.enabled = true;
                     onText = -1;
                 }
                 else if(textArray[onText].ToString() == "GOTO NEXT") {
                     textSound.Stop();
                     dialogueBox.SetActive(false);
-                    onText = 0;
-                    player.GetComponent<PlayerController>().enabled = true;
+                    playerController.enabled = true;
                     Initiate.Fade(textArray[onText+1].ToString(),Color.black,30);
+                    onText = 0;
+
                 }
                 else if(textArray[onText].ToString() != "STOP" && textArray[onText].ToString() != "GOTO NEXT") {
                     StartCoroutine(showText(textArray[onText]));
@@ -74,14 +79,17 @@ public class TypingEffect : MonoBehaviour {
         if(other.gameObject.name == "Player") {
             isColliding = false;
             dialogueBox.SetActive(false);
-            player.GetComponent<PlayerController>().enabled = true;
+            playerController.enabled = true;
             onText = 0;
         }
     }
 
     void disableMovement() {
-        player.GetComponent<PlayerController>().enabled = false;
+        playerController.enabled = false;
+        
         PlayerController.direction = new Vector2(0,0);
+        player.velocity = new Vector2(0,0);
+
         PlayerController.animator.SetBool("walkingLeft", false);
         PlayerController.animator.SetBool("walkingRight", false);
         PlayerController.animator.SetBool("walkingForward", false);
