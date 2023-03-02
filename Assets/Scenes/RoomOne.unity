@@ -3725,9 +3725,9 @@ MonoBehaviour:
   textArray:
   - A large green crystal lies in front of you, it's supposed to bring good luck.
   - STOP
-  textObject: {fileID: 833611202}
+  textObject: {fileID: 0}
   textSound: {fileID: 2029602516}
-  dialogueBox: {fileID: 1201641688}
+  dialogueBox: {fileID: 0}
   player: {fileID: 997424491}
 --- !u!61 &436132422
 BoxCollider2D:
@@ -3974,6 +3974,84 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 10.540535, y: 14.276626}
   m_EdgeRadius: 0
+--- !u!1 &751118010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 751118011}
+  - component: {fileID: 751118013}
+  - component: {fileID: 751118012}
+  m_Layer: 0
+  m_Name: DialogueBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &751118011
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751118010}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.200005, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 888596587}
+  - {fileID: 1027665762}
+  m_Father: {fileID: 2055236672}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -21.999939, y: 206}
+  m_SizeDelta: {x: -742.14307, y: 495.827}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &751118012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751118010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 80cc39b0a1bfd65439c77966a1e814ef, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &751118013
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751118010}
+  m_CullTransparentMesh: 1
 --- !u!1 &772321829
 GameObject:
   m_ObjectHideFlags: 0
@@ -4024,9 +4102,9 @@ MonoBehaviour:
   textArray:
   - An empty drawer sits next to your bed. Maybe you should use it to clean up later...
   - STOP
-  textObject: {fileID: 833611202}
+  textObject: {fileID: 0}
   textSound: {fileID: 2029602516}
-  dialogueBox: {fileID: 1201641688}
+  dialogueBox: {fileID: 0}
   player: {fileID: 997424491}
 --- !u!61 &772321832
 BoxCollider2D:
@@ -4100,7 +4178,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!1 &833611200
+--- !u!1 &888596586
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4108,43 +4186,43 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 833611201}
-  - component: {fileID: 833611203}
-  - component: {fileID: 833611202}
+  - component: {fileID: 888596587}
+  - component: {fileID: 888596589}
+  - component: {fileID: 888596588}
   m_Layer: 5
-  m_Name: Dialogue
+  m_Name: Name
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &833611201
+--- !u!224 &888596587
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 833611200}
+  m_GameObject: {fileID: 888596586}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.8333333, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1201641689}
+  m_Father: {fileID: 751118011}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 553, y: -321}
+  m_AnchoredPosition: {x: 588.93, y: -203}
   m_SizeDelta: {x: 1223.0122, y: 80.83002}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &833611202
+--- !u!114 &888596588
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 833611200}
+  m_GameObject: {fileID: 888596586}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -4158,17 +4236,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '* Hey there, dude! Hope you''re enjoying the game :)'
+  m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 269faa8470507204c8a16c89d60d09a6, type: 2}
-  m_sharedMaterial: {fileID: 4651406292478216624, guid: 269faa8470507204c8a16c89d60d09a6, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 132d98a5a1b8b5545a871e3cc122dd22, type: 2}
+  m_sharedMaterial: {fileID: -8186431788233896339, guid: 132d98a5a1b8b5545a871e3cc122dd22, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4288848639
+  m_fontColor: {r: 1, g: 0.63584906, b: 0.63584906, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4180,18 +4258,18 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 93368250
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70
-  m_fontSizeBase: 70
+  m_fontSize: 90
+  m_fontSizeBase: 90
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -4221,19 +4299,19 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 65.734375, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &833611203
+--- !u!222 &888596589
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 833611200}
+  m_GameObject: {fileID: 888596586}
   m_CullTransparentMesh: 1
 --- !u!1 &917149023
 GameObject:
@@ -4285,9 +4363,9 @@ MonoBehaviour:
   textArray:
   - A large green crystal lies in front of you, it's supposed to bring good luck.
   - STOP
-  textObject: {fileID: 833611202}
+  textObject: {fileID: 0}
   textSound: {fileID: 2029602516}
-  dialogueBox: {fileID: 1201641688}
+  dialogueBox: {fileID: 0}
   player: {fileID: 997424495}
 --- !u!61 &917149026
 BoxCollider2D:
@@ -4411,9 +4489,9 @@ MonoBehaviour:
   textArray:
   - A half-full cup of tea lies on the floor. It's cold to the touch.
   - STOP
-  textObject: {fileID: 833611202}
+  textObject: {fileID: 0}
   textSound: {fileID: 2029602516}
-  dialogueBox: {fileID: 1201641688}
+  dialogueBox: {fileID: 0}
   player: {fileID: 997424491}
 --- !u!61 &927139591
 BoxCollider2D:
@@ -5167,6 +5245,143 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!1 &1027665761
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1027665762}
+  - component: {fileID: 1027665764}
+  - component: {fileID: 1027665763}
+  m_Layer: 5
+  m_Name: Dialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1027665762
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027665761}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.8333333, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 751118011}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 588.93, y: -283.83}
+  m_SizeDelta: {x: 1223.0122, y: 80.83002}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1027665763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027665761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'hi hello how are you doing today :)
+
+    I actually quite like this one.'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 269faa8470507204c8a16c89d60d09a6, type: 2}
+  m_sharedMaterial: {fileID: 4651406292478216624, guid: 269faa8470507204c8a16c89d60d09a6, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: 93368250
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 70
+  m_fontSizeBase: 70
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 65.734375, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1027665764
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027665761}
+  m_CullTransparentMesh: 1
 --- !u!1 &1063879410
 GameObject:
   m_ObjectHideFlags: 0
@@ -5217,9 +5432,9 @@ MonoBehaviour:
   textArray:
   - A large green crystal lies in front of you, it's supposed to bring good luck.
   - STOP
-  textObject: {fileID: 833611202}
+  textObject: {fileID: 0}
   textSound: {fileID: 2029602516}
-  dialogueBox: {fileID: 1201641688}
+  dialogueBox: {fileID: 0}
   player: {fileID: 997424495}
 --- !u!61 &1063879413
 BoxCollider2D:
@@ -5396,9 +5611,9 @@ MonoBehaviour:
   textArray:
   - A small green crystal lies in front of you, it's supposed to bring good luck.
   - STOP
-  textObject: {fileID: 833611202}
+  textObject: {fileID: 0}
   textSound: {fileID: 2029602516}
-  dialogueBox: {fileID: 1201641688}
+  dialogueBox: {fileID: 0}
   player: {fileID: 997424491}
 --- !u!61 &1129876537
 BoxCollider2D:
@@ -5487,83 +5702,6 @@ Transform:
   m_Father: {fileID: 325287745}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 175.494, z: 0}
---- !u!1 &1201641688
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1201641689}
-  - component: {fileID: 1201641691}
-  - component: {fileID: 1201641690}
-  m_Layer: 0
-  m_Name: DialogueBox
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1201641689
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1201641688}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 833611201}
-  m_Father: {fileID: 2055236672}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -22, y: 242}
-  m_SizeDelta: {x: -742.1425, y: 574.6504}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1201641690
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1201641688}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e9db8756b1c181e43832227fb0f34da8, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1201641691
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1201641688}
-  m_CullTransparentMesh: 1
 --- !u!1 &1262765557
 GameObject:
   m_ObjectHideFlags: 0
@@ -5991,9 +6129,9 @@ MonoBehaviour:
   - Your bed sits in front of you, unmade. It's like it's begging you to come back
     to sleep.
   - STOP
-  textObject: {fileID: 833611202}
+  textObject: {fileID: 0}
   textSound: {fileID: 2029602516}
-  dialogueBox: {fileID: 1201641688}
+  dialogueBox: {fileID: 0}
   player: {fileID: 997424491}
 --- !u!61 &1645604631
 BoxCollider2D:
@@ -9102,9 +9240,9 @@ MonoBehaviour:
   textArray:
   - A small green crystal lies in front of you, it's supposed to bring good luck.
   - STOP
-  textObject: {fileID: 833611202}
+  textObject: {fileID: 0}
   textSound: {fileID: 2029602516}
-  dialogueBox: {fileID: 1201641688}
+  dialogueBox: {fileID: 0}
   player: {fileID: 997424491}
 --- !u!61 &1925822279
 BoxCollider2D:
@@ -9228,9 +9366,9 @@ MonoBehaviour:
   textArray:
   - A cold and expired meal complements your empty cup of tea quite nicely.
   - STOP
-  textObject: {fileID: 833611202}
+  textObject: {fileID: 0}
   textSound: {fileID: 2029602516}
-  dialogueBox: {fileID: 1201641688}
+  dialogueBox: {fileID: 0}
   player: {fileID: 997424491}
 --- !u!61 &1986246628
 BoxCollider2D:
@@ -10377,7 +10515,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1201641689}
+  - {fileID: 751118011}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
