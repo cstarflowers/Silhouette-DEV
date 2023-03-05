@@ -15,6 +15,8 @@ Plemuzic . . . Contributor ([UI Frames -- CC 0](https://opengameart.org/content/
 
 Theodore Palser . . . Contributor ([TV Noise -- CC 0](https://www.publicdomainpictures.net/en/view-image.php?image=201932&picture=tv-noise))
 
+Twicce Switzerland . . . Contributor ([Autumn Trees -- Other](https://www.pexels.com/video/autumn-trees-5700681/))
+
 Yasemin Ozer . . . Contributor ([Star Background -- Other](https://media.discordapp.net/attachments/549295098387628032/1070555543162331156/silhouette20opening.mov))
 
 ## Music/SFX
