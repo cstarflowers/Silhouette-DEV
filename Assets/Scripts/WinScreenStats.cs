@@ -18,7 +18,7 @@ public class WinScreenStats : MonoBehaviour {
         }
         hitText.text = ScoreManager.hitCount.ToString() + " Hit!";
         missText.text = ScoreManager.missCount.ToString() + " Miss!";
-        scoreText.text = "Score: " + ScoreManager.adjScore.ToString();
+        scoreText.text = "Score: " + ScoreManager.adjScore.ToString() + "\n[CLICK] to continue.";
 
     }
 }

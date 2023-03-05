@@ -42,7 +42,7 @@ public class TypingEffect : MonoBehaviour {
                     textSound.Stop();
                     dialogueBox.SetActive(false);
                     playerController.enabled = true;
-                    Initiate.Fade(textArray[onText+1].ToString(),Color.black,30);
+                    Initiate.Fade(textArray[onText+1].ToString(),Color.black,15);
                     onText = 0;
 
                 }

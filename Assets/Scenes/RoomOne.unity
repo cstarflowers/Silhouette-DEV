@@ -123,6 +123,132 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &2101160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2101161}
+  - component: {fileID: 2101164}
+  - component: {fileID: 2101163}
+  - component: {fileID: 2101162}
+  m_Layer: 0
+  m_Name: Table (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2101161
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101160}
+  m_LocalRotation: {x: -0, y: 0.99922705, z: -0, w: 0.039311957}
+  m_LocalPosition: {x: 6.6, y: 17.3, z: -9.9}
+  m_LocalScale: {x: 1.3, y: 1.1999999, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 325287745}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 175.494, z: 0}
+--- !u!114 &2101162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bb75e3abb20a254cb07505d301aacad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0.05
+  textArray:
+  - A dinner table scattered with food and surrounded by empty chairs. Yum!
+  - STOP
+  textObject: {fileID: 1027665763}
+  textSound: {fileID: 2029602516}
+  dialogueBox: {fileID: 751118010}
+  player: {fileID: 997424495}
+--- !u!61 &2101163
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101160}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -78.8058, y: -1.6087574}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 11.21, y: 15.4}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 26.908142, y: 9.924411}
+  m_EdgeRadius: 0
+--- !u!50 &2101164
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101160}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 1
+  m_Mass: 1
+  m_LinearDrag: 2
+  m_AngularDrag: 2
+  m_GravityScale: 3
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &77115999
 GameObject:
   m_ObjectHideFlags: 0
@@ -3541,6 +3667,258 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &236982113
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 236982114}
+  - component: {fileID: 236982117}
+  - component: {fileID: 236982116}
+  - component: {fileID: 236982115}
+  m_Layer: 0
+  m_Name: Cabinets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &236982114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236982113}
+  m_LocalRotation: {x: -0, y: 0.99922705, z: -0, w: 0.039311957}
+  m_LocalPosition: {x: 6.6, y: 34.8, z: -9.9}
+  m_LocalScale: {x: 1.3, y: 1.1999999, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 325287745}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 175.494, z: 0}
+--- !u!114 &236982115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236982113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bb75e3abb20a254cb07505d301aacad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0.05
+  textArray:
+  - An array of cabinets sits in front of you. Most of them are empty...
+  - STOP
+  textObject: {fileID: 1027665763}
+  textSound: {fileID: 2029602516}
+  dialogueBox: {fileID: 751118010}
+  player: {fileID: 997424495}
+--- !u!61 &236982116
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236982113}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -78.40883, y: -0.23681211}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 11.21, y: 15.4}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 51.520885, y: 12.668305}
+  m_EdgeRadius: 0
+--- !u!50 &236982117
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236982113}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 1
+  m_Mass: 1
+  m_LinearDrag: 2
+  m_AngularDrag: 2
+  m_GravityScale: 3
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!1 &274896905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 274896906}
+  - component: {fileID: 274896909}
+  - component: {fileID: 274896908}
+  - component: {fileID: 274896907}
+  m_Layer: 0
+  m_Name: Table
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &274896906
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274896905}
+  m_LocalRotation: {x: -0, y: 0.99922705, z: -0, w: 0.039311957}
+  m_LocalPosition: {x: 6.8, y: 7, z: -9.9}
+  m_LocalScale: {x: 1.3, y: 1.1999999, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 325287745}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 175.494, z: 0}
+--- !u!114 &274896907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274896905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bb75e3abb20a254cb07505d301aacad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0.05
+  textArray:
+  - A dinner table scattered with food and surrounded by empty chairs. Yum!
+  - STOP
+  textObject: {fileID: 1027665763}
+  textSound: {fileID: 2029602516}
+  dialogueBox: {fileID: 751118010}
+  player: {fileID: 997424495}
+--- !u!61 &274896908
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274896905}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -78.56763, y: -0.83704185}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 11.21, y: 15.4}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 62.953888, y: 11.467842}
+  m_EdgeRadius: 0
+--- !u!50 &274896909
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274896905}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 1
+  m_Mass: 1
+  m_LinearDrag: 2
+  m_AngularDrag: 2
+  m_GravityScale: 3
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &325287744
 GameObject:
   m_ObjectHideFlags: 0
@@ -3570,14 +3948,19 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1129876539}
-  - {fileID: 917149024}
   - {fileID: 436132420}
-  - {fileID: 1925822277}
   - {fileID: 1063879411}
-  - {fileID: 927139589}
   - {fileID: 1986246626}
   - {fileID: 1645604629}
-  - {fileID: 772321830}
+  - {fileID: 2087869815}
+  - {fileID: 236982114}
+  - {fileID: 944370429}
+  - {fileID: 274896906}
+  - {fileID: 2101161}
+  - {fileID: 795297940}
+  - {fileID: 1798890419}
+  - {fileID: 1767986017}
+  - {fileID: 1324165345}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3716,19 +4099,19 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 436132419}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4bb75e3abb20a254cb07505d301aacad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.05
   textArray:
-  - A large green crystal lies in front of you, it's supposed to bring good luck.
+  - A few green crystals lie in front of you, they're supposed to bring good luck.
   - STOP
-  textObject: {fileID: 0}
+  textObject: {fileID: 1027665763}
   textSound: {fileID: 2029602516}
-  dialogueBox: {fileID: 0}
-  player: {fileID: 997424491}
+  dialogueBox: {fileID: 751118010}
+  player: {fileID: 997424495}
 --- !u!61 &436132422
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3761,7 +4144,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.16885, y: 0.6967261}
+  m_Offset: {x: 4.2366486, y: -1.2753959}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3772,7 +4155,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 11.2939205, y: 12.416658}
+  m_Size: {x: 17.429518, y: 18.569706}
   m_EdgeRadius: 0
 --- !u!50 &436132423
 Rigidbody2D:
@@ -4052,7 +4435,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 751118010}
   m_CullTransparentMesh: 1
---- !u!1 &772321829
+--- !u!1 &795297939
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4060,59 +4443,59 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 772321830}
-  - component: {fileID: 772321833}
-  - component: {fileID: 772321832}
-  - component: {fileID: 772321831}
+  - component: {fileID: 795297940}
+  - component: {fileID: 795297943}
+  - component: {fileID: 795297942}
+  - component: {fileID: 795297941}
   m_Layer: 0
-  m_Name: Drawer
+  m_Name: Table (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &772321830
+--- !u!4 &795297940
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 772321829}
+  m_GameObject: {fileID: 795297939}
   m_LocalRotation: {x: -0, y: 0.99922705, z: -0, w: 0.039311957}
-  m_LocalPosition: {x: -16.8, y: 34.1, z: -11.7}
+  m_LocalPosition: {x: 6, y: 0, z: -9.9}
   m_LocalScale: {x: 1.3, y: 1.1999999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 325287745}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 175.494, z: 0}
---- !u!114 &772321831
+--- !u!114 &795297941
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 772321829}
-  m_Enabled: 0
+  m_GameObject: {fileID: 795297939}
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4bb75e3abb20a254cb07505d301aacad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.05
   textArray:
-  - An empty drawer sits next to your bed. Maybe you should use it to clean up later...
+  - A dinner table scattered with food and surrounded by empty chairs. Yum!
   - STOP
-  textObject: {fileID: 0}
+  textObject: {fileID: 1027665763}
   textSound: {fileID: 2029602516}
-  dialogueBox: {fileID: 0}
-  player: {fileID: 997424491}
---- !u!61 &772321832
+  dialogueBox: {fileID: 751118010}
+  player: {fileID: 997424495}
+--- !u!61 &795297942
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 772321829}
+  m_GameObject: {fileID: 795297939}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -4138,7 +4521,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.084581375, y: -0.585145}
+  m_Offset: {x: -79.04401, y: -1.6087575}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4149,16 +4532,16 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7.8631134, y: 11.188572}
+  m_Size: {x: 36.91201, y: 9.924411}
   m_EdgeRadius: 0
---- !u!50 &772321833
+--- !u!50 &795297943
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 772321829}
+  m_GameObject: {fileID: 795297939}
   m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -4313,7 +4696,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 888596586}
   m_CullTransparentMesh: 1
---- !u!1 &917149023
+--- !u!1 &944370428
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4321,59 +4704,59 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 917149024}
-  - component: {fileID: 917149027}
-  - component: {fileID: 917149026}
-  - component: {fileID: 917149025}
+  - component: {fileID: 944370429}
+  - component: {fileID: 944370432}
+  - component: {fileID: 944370431}
+  - component: {fileID: 944370430}
   m_Layer: 0
-  m_Name: Spikey Decor (2)
+  m_Name: Barrel (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &917149024
+--- !u!4 &944370429
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 917149023}
+  m_GameObject: {fileID: 944370428}
   m_LocalRotation: {x: -0, y: 0.99922705, z: -0, w: 0.039311957}
-  m_LocalPosition: {x: -24.9, y: 24.4, z: -12.3}
+  m_LocalPosition: {x: 74.6, y: 34, z: -4.5}
   m_LocalScale: {x: 1.3, y: 1.1999999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 325287745}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 175.494, z: 0}
---- !u!114 &917149025
+--- !u!114 &944370430
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 917149023}
-  m_Enabled: 0
+  m_GameObject: {fileID: 944370428}
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4bb75e3abb20a254cb07505d301aacad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.05
   textArray:
-  - A large green crystal lies in front of you, it's supposed to bring good luck.
+  - A barrel filled with water. You find it rather pointless.
   - STOP
-  textObject: {fileID: 0}
+  textObject: {fileID: 1027665763}
   textSound: {fileID: 2029602516}
-  dialogueBox: {fileID: 0}
+  dialogueBox: {fileID: 751118010}
   player: {fileID: 997424495}
---- !u!61 &917149026
+--- !u!61 &944370431
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 917149023}
+  m_GameObject: {fileID: 944370428}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -4399,7 +4782,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.1842417, y: 0.69672585}
+  m_Offset: {x: -60.669357, y: -0.23681211}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4410,142 +4793,16 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7.9677534, y: 12.416658}
+  m_Size: {x: 8.357651, y: 12.668305}
   m_EdgeRadius: 0
---- !u!50 &917149027
+--- !u!50 &944370432
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 917149023}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 1
-  m_Mass: 1
-  m_LinearDrag: 2
-  m_AngularDrag: 2
-  m_GravityScale: 3
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!1 &927139588
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 927139589}
-  - component: {fileID: 927139592}
-  - component: {fileID: 927139591}
-  - component: {fileID: 927139590}
-  m_Layer: 0
-  m_Name: Teacup
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &927139589
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 927139588}
-  m_LocalRotation: {x: -0, y: 0.99922705, z: -0, w: 0.039311957}
-  m_LocalPosition: {x: 10.8, y: 22.9, z: -9.5}
-  m_LocalScale: {x: 1.3, y: 1.1999999, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 325287745}
-  m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 175.494, z: 0}
---- !u!114 &927139590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 927139588}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bb75e3abb20a254cb07505d301aacad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 0.05
-  textArray:
-  - A half-full cup of tea lies on the floor. It's cold to the touch.
-  - STOP
-  textObject: {fileID: 0}
-  textSound: {fileID: 2029602516}
-  dialogueBox: {fileID: 0}
-  player: {fileID: 997424491}
---- !u!61 &927139591
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 927139588}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.84547234, y: 0.3474791}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 11.21, y: 15.4}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 9.723221, y: 9.323324}
-  m_EdgeRadius: 0
---- !u!50 &927139592
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 927139588}
+  m_GameObject: {fileID: 944370428}
   m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -5423,7 +5680,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1063879410}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4bb75e3abb20a254cb07505d301aacad, type: 3}
   m_Name: 
@@ -5432,9 +5689,9 @@ MonoBehaviour:
   textArray:
   - A large green crystal lies in front of you, it's supposed to bring good luck.
   - STOP
-  textObject: {fileID: 0}
+  textObject: {fileID: 1027665763}
   textSound: {fileID: 2029602516}
-  dialogueBox: {fileID: 0}
+  dialogueBox: {fileID: 751118010}
   player: {fileID: 997424495}
 --- !u!61 &1063879413
 BoxCollider2D:
@@ -5602,7 +5859,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1129876535}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4bb75e3abb20a254cb07505d301aacad, type: 3}
   m_Name: 
@@ -5611,10 +5868,10 @@ MonoBehaviour:
   textArray:
   - A small green crystal lies in front of you, it's supposed to bring good luck.
   - STOP
-  textObject: {fileID: 0}
+  textObject: {fileID: 1027665763}
   textSound: {fileID: 2029602516}
-  dialogueBox: {fileID: 0}
-  player: {fileID: 997424491}
+  dialogueBox: {fileID: 751118010}
+  player: {fileID: 997424495}
 --- !u!61 &1129876537
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5830,6 +6087,133 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1324165344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1324165345}
+  - component: {fileID: 1324165348}
+  - component: {fileID: 1324165347}
+  - component: {fileID: 1324165346}
+  m_Layer: 0
+  m_Name: Bookshelves (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1324165345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1324165344}
+  m_LocalRotation: {x: -0, y: 0.99922705, z: -0, w: 0.039311957}
+  m_LocalPosition: {x: 159.6, y: -36.1, z: 2.1}
+  m_LocalScale: {x: 1.3, y: 1.1999999, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 325287745}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 175.494, z: 0}
+--- !u!114 &1324165346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1324165344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bb75e3abb20a254cb07505d301aacad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0.05
+  textArray:
+  - In front of you, bookshelves lined with every book you could ever read. But,
+    you don't really like reading.
+  - STOP
+  textObject: {fileID: 1027665763}
+  textSound: {fileID: 2029602516}
+  dialogueBox: {fileID: 751118010}
+  player: {fileID: 997424495}
+--- !u!61 &1324165347
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1324165344}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 10.879064, y: -5.1489677}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 11.21, y: 15.4}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 35.818657, y: 20.49155}
+  m_EdgeRadius: 0
+--- !u!50 &1324165348
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1324165344}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 1
+  m_Mass: 1
+  m_LinearDrag: 2
+  m_AngularDrag: 2
+  m_GravityScale: 3
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &1441558473
 GameObject:
   m_ObjectHideFlags: 0
@@ -5969,7 +6353,7 @@ GameObject:
   - component: {fileID: 1512327300}
   - component: {fileID: 1512327296}
   - component: {fileID: 1512327298}
-  - component: {fileID: 1512327297}
+  - component: {fileID: 1512327301}
   m_Layer: 0
   m_Name: Exit
   m_TagString: Untagged
@@ -6009,7 +6393,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0424574, y: 0.2018843}
+  m_Offset: {x: 0.05438292, y: 0.2972853}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6020,22 +6404,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.4759525, y: 1.1952186}
+  m_Size: {x: 3.1693242, y: 2.2446318}
   m_EdgeRadius: 0
---- !u!114 &1512327297
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1512327295}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd777c579725d634880dd6cce2548028, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  newLevel: BrainWorld
-  interactSound: {fileID: 1262765558}
 --- !u!50 &1512327298
 Rigidbody2D:
   serializedVersion: 4
@@ -6078,6 +6448,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1512327301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512327295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bb75e3abb20a254cb07505d301aacad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0.05
+  textArray:
+  - You get ready to leave the house, but notice a post-it note on the door.
+  - It appears to be a long to-do list outlining your chores for the day.
+  - However, you decide to leave them to fate.
+  - GOTO NEXT
+  - BrainWorld
+  textObject: {fileID: 1027665763}
+  textSound: {fileID: 2029602516}
+  dialogueBox: {fileID: 751118010}
+  player: {fileID: 997424495}
 --- !u!1 &1645604628
 GameObject:
   m_ObjectHideFlags: 0
@@ -6119,20 +6512,19 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1645604628}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4bb75e3abb20a254cb07505d301aacad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.05
   textArray:
-  - Your bed sits in front of you, unmade. It's like it's begging you to come back
-    to sleep.
+  - Your bed, dresser, and bookshelf -- everything a good room could ever need.
   - STOP
-  textObject: {fileID: 0}
+  textObject: {fileID: 1027665763}
   textSound: {fileID: 2029602516}
-  dialogueBox: {fileID: 0}
-  player: {fileID: 997424491}
+  dialogueBox: {fileID: 751118010}
+  player: {fileID: 997424495}
 --- !u!61 &1645604631
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6165,7 +6557,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.15323496, y: -0.585145}
+  m_Offset: {x: 8.403089, y: -2.2563353}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6176,7 +6568,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7.725806, y: 11.188572}
+  m_Size: {x: 22.289785, y: 17.676718}
   m_EdgeRadius: 0
 --- !u!50 &1645604632
 Rigidbody2D:
@@ -8372,7 +8764,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -23, y: 5, z: 0}
+  - first: {x: -24, y: 5, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 58
@@ -8452,7 +8844,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -15, y: 5, z: 0}
+  - first: {x: -14, y: 5, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 58
@@ -9190,7 +9582,7 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
---- !u!1 &1925822276
+--- !u!1 &1767986016
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9198,59 +9590,60 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1925822277}
-  - component: {fileID: 1925822280}
-  - component: {fileID: 1925822279}
-  - component: {fileID: 1925822278}
+  - component: {fileID: 1767986017}
+  - component: {fileID: 1767986020}
+  - component: {fileID: 1767986019}
+  - component: {fileID: 1767986018}
   m_Layer: 0
-  m_Name: Spikey Decor (4)
+  m_Name: Bookshelves
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1925822277
+--- !u!4 &1767986017
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1925822276}
+  m_GameObject: {fileID: 1767986016}
   m_LocalRotation: {x: -0, y: 0.99922705, z: -0, w: 0.039311957}
-  m_LocalPosition: {x: -15.7, y: -20, z: -11.5}
+  m_LocalPosition: {x: 86.2, y: -36.1, z: -3.7}
   m_LocalScale: {x: 1.3, y: 1.1999999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 325287745}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 175.494, z: 0}
---- !u!114 &1925822278
+--- !u!114 &1767986018
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1925822276}
-  m_Enabled: 0
+  m_GameObject: {fileID: 1767986016}
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4bb75e3abb20a254cb07505d301aacad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.05
   textArray:
-  - A small green crystal lies in front of you, it's supposed to bring good luck.
+  - In front of you, bookshelves lined with every book you could ever read. But,
+    you don't really like reading.
   - STOP
-  textObject: {fileID: 0}
+  textObject: {fileID: 1027665763}
   textSound: {fileID: 2029602516}
-  dialogueBox: {fileID: 0}
-  player: {fileID: 997424491}
---- !u!61 &1925822279
+  dialogueBox: {fileID: 751118010}
+  player: {fileID: 997424495}
+--- !u!61 &1767986019
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1925822276}
+  m_GameObject: {fileID: 1767986016}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -9276,7 +9669,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.16885, y: 0.6967261}
+  m_Offset: {x: 11.353079, y: -7.324665}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -9287,16 +9680,144 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 11.2939205, y: 12.416658}
+  m_Size: {x: 36.76669, y: 24.842945}
   m_EdgeRadius: 0
---- !u!50 &1925822280
+--- !u!50 &1767986020
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1925822276}
+  m_GameObject: {fileID: 1767986016}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 1
+  m_Mass: 1
+  m_LinearDrag: 2
+  m_AngularDrag: 2
+  m_GravityScale: 3
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!1 &1798890418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1798890419}
+  - component: {fileID: 1798890422}
+  - component: {fileID: 1798890421}
+  - component: {fileID: 1798890420}
+  m_Layer: 0
+  m_Name: Bed (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1798890419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798890418}
+  m_LocalRotation: {x: -0, y: 0.99922705, z: -0, w: 0.039311957}
+  m_LocalPosition: {x: 244.2, y: 34, z: 8.8}
+  m_LocalScale: {x: 1.3, y: 1.1999999, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 325287745}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 175.494, z: 0}
+--- !u!114 &1798890420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798890418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bb75e3abb20a254cb07505d301aacad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0.05
+  textArray:
+  - Your parents, bed, dresser, and bookshelf. They aren't home much.
+  - A book lies adjacent to them on the floor. It's titled "How to Raise an Obedient
+    Child".
+  - STOP
+  textObject: {fileID: 1027665763}
+  textSound: {fileID: 2029602516}
+  dialogueBox: {fileID: 751118010}
+  player: {fileID: 997424495}
+--- !u!61 &1798890421
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798890418}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 10.642052, y: -1.5654645}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 11.21, y: 15.4}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 34.870613, y: 19.979618}
+  m_EdgeRadius: 0
+--- !u!50 &1798890422
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1798890418}
   m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -9357,19 +9878,19 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1986246625}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4bb75e3abb20a254cb07505d301aacad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 0.05
   textArray:
-  - A cold and expired meal complements your empty cup of tea quite nicely.
+  - A cold meal and an equally as cold teacup. Delightful!
   - STOP
-  textObject: {fileID: 0}
+  textObject: {fileID: 1027665763}
   textSound: {fileID: 2029602516}
-  dialogueBox: {fileID: 0}
-  player: {fileID: 997424491}
+  dialogueBox: {fileID: 751118010}
+  player: {fileID: 997424495}
 --- !u!61 &1986246628
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9402,7 +9923,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.15893388, y: 0.34747887}
+  m_Offset: {x: -3.846149, y: -3.7813425}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -9413,7 +9934,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 8.350143, y: 9.323324}
+  m_Size: {x: 15.632115, y: 17.580967}
   m_EdgeRadius: 0
 --- !u!50 &1986246629
 Rigidbody2D:
@@ -11668,3 +12189,129 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &2087869814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2087869815}
+  - component: {fileID: 2087869818}
+  - component: {fileID: 2087869817}
+  - component: {fileID: 2087869816}
+  m_Layer: 0
+  m_Name: Barrel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2087869815
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087869814}
+  m_LocalRotation: {x: -0, y: 0.99922705, z: -0, w: 0.039311957}
+  m_LocalPosition: {x: -15.7, y: 34, z: -11.6}
+  m_LocalScale: {x: 1.3, y: 1.1999999, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 325287745}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 175.494, z: 0}
+--- !u!114 &2087869816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087869814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bb75e3abb20a254cb07505d301aacad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0.05
+  textArray:
+  - A barrel filled with water. You find it rather pointless.
+  - STOP
+  textObject: {fileID: 1027665763}
+  textSound: {fileID: 2029602516}
+  dialogueBox: {fileID: 751118010}
+  player: {fileID: 997424495}
+--- !u!61 &2087869817
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087869814}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -60.90754, y: -0.23681211}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 11.21, y: 15.4}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 6.9285316, y: 12.668305}
+  m_EdgeRadius: 0
+--- !u!50 &2087869818
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087869814}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 1
+  m_Mass: 1
+  m_LinearDrag: 2
+  m_AngularDrag: 2
+  m_GravityScale: 3
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
