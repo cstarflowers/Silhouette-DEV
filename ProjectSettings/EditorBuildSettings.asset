@@ -9,20 +9,35 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: af71972d5719e9847a56797db13d0963
   - enabled: 1
+    path: Assets/Scenes/minaWorld.unity
+    guid: 09134ec8e6a77c24ab00447d85566963
+  - enabled: 1
     path: Assets/Scenes/BrainWorld.unity
     guid: 3ddfa20178481204c9dc38773aeb3a85
   - enabled: 1
     path: Assets/Scenes/CutscenePlayer1.unity
     guid: 67b65018880f11843aea2f0318c491c9
   - enabled: 1
-    path: Assets/Scenes/LevelOne.unity
-    guid: 6f6bd86940efcd44a8a47470aad83a96
-  - enabled: 1
     path: Assets/Scenes/RoomOne.unity
     guid: d0bd6176f4cef374aab3ad506d778449
+  - enabled: 1
+    path: Assets/Scenes/ShroomWorld.unity
+    guid: 70674c24cdc0dc04bb1d1fb0762e166e
+  - enabled: 1
+    path: Assets/Scenes/ShroomDino.unity
+    guid: b34dc91bba3fb7b4eba0e5ebff977066
+  - enabled: 1
+    path: Assets/Scenes/WinScreen.unity
+    guid: a58c96aa365d7ea4fa93049fa597e6e2
+  - enabled: 0
+    path: Assets/Scenes/Dark1.unity
+    guid: 05dab1c0822d78b42969261f556f3c5e
   - enabled: 0
     path: Assets/Scenes/GameplayDemo.unity
     guid: 089431efa8c3cae4e9bdc22646e9865c
+  - enabled: 0
+    path: Assets/Scenes/GameplayDemo2.unity
+    guid: 6f6bd86940efcd44a8a47470aad83a96
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
@@ -30,5 +45,5 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   m_configObjects:
-    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 482da7cdb8b2be244b6ebe3f3c2899d4, type: 2}
-    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: c1a5c7aca2d847844ac9fe8a85ea709c, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: cae43d2d70829f4418272b5b54b2ad81, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 99cae04ef2161f241b597344563c5807, type: 2}

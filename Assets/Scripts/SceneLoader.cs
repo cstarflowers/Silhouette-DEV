@@ -11,6 +11,7 @@ public class SceneLoader : MonoBehaviour
 
     void Start()
     {
+        Application.targetFrameRate = 60;
         // StartCoroutine(LoadLevelAfterDelay(delay));
     }
 
