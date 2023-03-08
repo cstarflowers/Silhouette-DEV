@@ -12,7 +12,7 @@ public string newLevel;
 void Update() {
     string sceneName = SceneManager.GetActiveScene().name.ToString();
 
-    if(Input.GetKeyDown(KeyCode.R) && sceneName == "BrainWorld") {
+    if(Input.GetKeyDown(KeyCode.R) /* && sceneName == "BrainWorld"*/ ) {
         PlayerController.animator.Play("Headphones");
         player.GetComponent<PlayerController>().enabled = false;
 

@@ -6466,7 +6466,7 @@ MonoBehaviour:
   - It appears to be a long to-do list outlining your chores for the day.
   - However, you decide to leave them to fate.
   - GOTO NEXT
-  - BrainWorld
+  - minaWorld
   textObject: {fileID: 1027665763}
   textSound: {fileID: 2029602516}
   dialogueBox: {fileID: 751118010}
