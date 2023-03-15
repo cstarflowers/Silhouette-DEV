@@ -6464,7 +6464,7 @@ MonoBehaviour:
   textArray:
   - You get ready to leave the house, but notice a post-it note on the door.
   - It appears to be a long to-do list outlining your chores for the day.
-  - However, you decide to leave them to fate.
+  - You decide to leave them to fate.
   - GOTO NEXT
   - minaWorld
   textObject: {fileID: 1027665763}
