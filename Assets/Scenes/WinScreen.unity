@@ -655,11 +655,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: f46cedac781a4fc4faf0899cb7301585, type: 3}
+  m_audioClip: {fileID: 8300000, guid: aea74e74229995a4f904654294dba4f6, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.7
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -912,7 +912,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1462290586}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: d730188a60b7c3a4f90bd7048cc181eb, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: e17c7862b0b89434ea847a27e0a480ee, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -1071,7 +1071,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Score: 000000
 
-    [CLICK] to continue.'
+    Tap ENTER to continue!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 269faa8470507204c8a16c89d60d09a6, type: 2}
   m_sharedMaterial: {fileID: 4651406292478216624, guid: 269faa8470507204c8a16c89d60d09a6, type: 2}

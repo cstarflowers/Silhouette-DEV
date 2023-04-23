@@ -6464,7 +6464,7 @@ MonoBehaviour:
   textArray:
   - You get ready to leave the house, but notice a post-it note on the door.
   - It appears to be a long to-do list outlining your chores for the day.
-  - You decide to leave them to fate.
+  - The first item on the list-- head out to the market and pick up some bread.
   - GOTO NEXT
   - minaWorld
   textObject: {fileID: 1027665763}
