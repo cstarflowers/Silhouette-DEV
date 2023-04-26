@@ -9,6 +9,8 @@ Faylyne . . . Contributor ([Flower Crown -- CC BY 2.0](https://www.flickr.com/ph
 
 Life Of Pix . . . Contributor ([Clear Wine Glass on Table -- CC 0](https://www.pexels.com/photo/clear-wine-glass-on-table-67468/))
 
+Oday Hazeem . . . Contributor ([Jekkyfish Illustration -- CC 0](https://www.pexels.com/photo/jellyfish-illustration-130621/))
+
 Pixabay . . . Contributor ([Closeup of Four White Mushrooms -- CC 0](https://www.pexels.com/photo/forest-fungus-landscape-moss-361186/))
 
 Plemuzic . . . Contributor ([UI Frames -- CC 0](https://opengameart.org/content/set-of-frames))
