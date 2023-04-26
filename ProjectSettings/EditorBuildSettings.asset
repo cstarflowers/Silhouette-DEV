@@ -50,6 +50,15 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/WinScreen2.unity
+    guid: 56a9ba7f3a266f948bc109f459fd0849
+  - enabled: 1
+    path: Assets/Scenes/Crytopus.unity
+    guid: 5cee1a2dce6162c4494b2b9ce5a9b0f8
+  - enabled: 1
+    path: Assets/Scenes/WaterWorld.unity
+    guid: ba5a893da46170f44887b4303a4c4245
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: cae43d2d70829f4418272b5b54b2ad81, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 99cae04ef2161f241b597344563c5807, type: 2}
