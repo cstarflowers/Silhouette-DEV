@@ -28,6 +28,8 @@ Drazil-Anachain . . . Contributor ([REM.cycle.exe -- CC BY-SA 3.0](https://www.n
 
 EdenGD . . . Contributor ([Morphing -- CC BY-SA 3.0](https://www.newgrounds.com/audio/listen/1183064))
 
+Elebear . . . Contributor ([crushes suck -- CC BY-NC-SA 3.0](https://www.newgrounds.com/audio/listen/1206135))
+
 Epikuro . . . Contributor ([Treasure Reflections (Jamuary Day 5) -- Other](https://www.newgrounds.com/audio/listen/1185201))
 
 ForgottenDawn . . . Contributor ([FD - Pale Sun -- CC BY 3.0](https://www.newgrounds.com/audio/listen/1182608))
