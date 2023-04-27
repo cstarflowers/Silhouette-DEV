@@ -22,6 +22,8 @@ Twicce Switzerland . . . Contributor ([Autumn Trees -- Other](https://www.pexels
 Yasemin Ozer . . . Contributor ([Star Background -- Other](https://media.discordapp.net/attachments/549295098387628032/1070555543162331156/silhouette20opening.mov))
 
 ## Music/SFX
+Drazil-Anachain . . . Contributor ([REM.cycle.exe -- CC BY-SA 3.0](https://www.newgrounds.com/audio/listen/1173389))
+
 EdenGD . . . Contributor ([Morphing -- CC BY-SA 3.0](https://www.newgrounds.com/audio/listen/1183064))
 
 Epikuro . . . Contributor ([Treasure Reflections (Jamuary Day 5) -- Other](https://www.newgrounds.com/audio/listen/1185201))
