@@ -195,10 +195,10 @@ MonoBehaviour:
   m_enableVertexGradient: 1
   m_colorMode: 3
   m_fontColorGradient:
-    topLeft: {r: 0.7924528, g: 0.42875552, b: 0, a: 1}
-    topRight: {r: 0.7924528, g: 0.40788943, b: 0, a: 1}
-    bottomLeft: {r: 0.3490566, g: 0.1616567, b: 0, a: 1}
-    bottomRight: {r: 0.3301887, g: 0.13076335, b: 0, a: 1}
+    topLeft: {r: 1, g: 0.6, b: 0.89411765, a: 1}
+    topRight: {r: 1, g: 0.4392157, b: 0.827451, a: 1}
+    bottomLeft: {r: 0.65882355, g: 0.18431373, b: 1, a: 1}
+    bottomRight: {r: 0.78039217, g: 0, b: 1, a: 1}
   m_fontColorGradientPreset: {fileID: 0}
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
@@ -1073,7 +1073,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 62b91e8c8b28ce841930884e8a1e9718, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 7ecafd8ade6807446b1c8f47eda9b7ed, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.4
   m_Pitch: 1
@@ -1279,8 +1279,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cbc7935c3ba41143a6d4a0b04b4c82f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 80
-  newLevel: WinScreen
+  delay: 70
+  newLevel: WinScreen2
 --- !u!1 &780492653
 GameObject:
   m_ObjectHideFlags: 0
@@ -1364,7 +1364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 121506}
   comboText: {fileID: 1100877183}
-  HPInEditor: 50000
+  HPInEditor: 75000
 --- !u!4 &786516798
 Transform:
   m_ObjectHideFlags: 0
@@ -1716,10 +1716,10 @@ MonoBehaviour:
   m_enableVertexGradient: 1
   m_colorMode: 3
   m_fontColorGradient:
-    topLeft: {r: 0.7921569, g: 0.42745098, b: 0, a: 1}
-    topRight: {r: 0.7921569, g: 0.40784314, b: 0, a: 1}
-    bottomLeft: {r: 0.34901962, g: 0.16078432, b: 0, a: 1}
-    bottomRight: {r: 0.32941177, g: 0.12941177, b: 0, a: 1}
+    topLeft: {r: 1, g: 0.5981132, b: 0.89281416, a: 1}
+    topRight: {r: 1, g: 0.4377358, b: 0.82616115, a: 1}
+    bottomLeft: {r: 0.6603922, g: 0.1830188, b: 1, a: 1}
+    bottomRight: {r: 0.77935123, g: 0, b: 1, a: 1}
   m_fontColorGradientPreset: {fileID: 0}
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
@@ -2034,7 +2034,7 @@ MonoBehaviour:
   delay: 0
   marginOfError: 0.3
   inputDelayInMilliseconds: 0
-  fileLocation: Treasure-reflections-easy.mid
+  fileLocation: take-a-frog-easy.mid
   noteTime: 1
   noteSpawnY: 5
   noteTapY: 0
@@ -2286,7 +2286,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 36, y: -123}
+  m_AnchoredPosition: {x: 244, y: -237}
   m_SizeDelta: {x: -1422.7399, y: -661.1107}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1711609278
@@ -2317,7 +2317,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 178217d8e85704b47bf2ce62ca33c963, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fe0b6284e884ecf44b97e86e69764a2f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2355,7 +2355,7 @@ RectTransform:
   m_GameObject: {fileID: 1756815058}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4, y: 9, z: 0}
+  m_LocalScale: {x: 5, y: 11, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2024195408}
@@ -2363,7 +2363,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: -85}
+  m_AnchoredPosition: {x: -34, y: -42}
   m_SizeDelta: {x: 174.0827, y: 94.929}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1756815064
@@ -2387,14 +2387,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.7921569, b: 0.41960785, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e7942910903c5c94fb41c44d7ed4237a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1e2d28a91c5ae884ba4dfd5e7e7a90a9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2414,7 +2414,7 @@ Animator:
   m_GameObject: {fileID: 1756815058}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: cd8ac6ba856aade4987303a8117c88be, type: 2}
+  m_Controller: {fileID: 9100000, guid: 30925b8604a4a144b85987b86c106879, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
