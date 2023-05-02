@@ -32,6 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WinScreen.unity
     guid: a58c96aa365d7ea4fa93049fa597e6e2
+  - enabled: 1
+    path: Assets/Scenes/WaterWorld.unity
+    guid: 3f0d51bcbd79a6840a44e49f413f3874
   - enabled: 0
     path: Assets/Scenes/BrainWorld.unity
     guid: 3ddfa20178481204c9dc38773aeb3a85
