@@ -1073,9 +1073,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 62b91e8c8b28ce841930884e8a1e9718, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0282c54a53f2201478cd8b3ed77ae69b, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.3
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1279,7 +1279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cbc7935c3ba41143a6d4a0b04b4c82f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 80
+  delay: 100
   newLevel: WinScreen
 --- !u!1 &780492653
 GameObject:
@@ -1364,7 +1364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 121506}
   comboText: {fileID: 1100877183}
-  HPInEditor: 75000
+  HPInEditor: 150000
 --- !u!4 &786516798
 Transform:
   m_ObjectHideFlags: 0
@@ -2034,7 +2034,7 @@ MonoBehaviour:
   delay: 0
   marginOfError: 0.3
   inputDelayInMilliseconds: 0
-  fileLocation: Treasure-reflections-easy.mid
+  fileLocation: apartment-1987.mid
   noteTime: 1
   noteSpawnY: 5
   noteTapY: 0
