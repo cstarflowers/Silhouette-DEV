@@ -50,6 +50,8 @@ PhonosUPF . . Contributor ([Piano Attack Sequence -- CC 0](https://freesound.org
 
 ReinnOfficialTracks . . . Contributor ([My Little Soul -- Other](https://www.newgrounds.com/audio/listen/1035875))
 
+Ristooooo1 . . . Contributor ([Bubbles 002 -- CC 0](https://freesound.org/people/ristooooo1/sounds/539822/))
+
 Shadow6nothing9 . . . Contributor ([-The Carnival Floor- -- CC BY-NC-ND 3.0](https://www.newgrounds.com/audio/listen/279237))
 
 Straget . . . Contributor ([The rain falls against the parasol - CC BY 4.0](https://freesound.org/people/straget/sounds/531947/))
