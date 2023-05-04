@@ -35,18 +35,33 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WaterWorld.unity
     guid: 3f0d51bcbd79a6840a44e49f413f3874
+  - enabled: 1
+    path: Assets/Scenes/Crytopus.unity
+    guid: 5cee1a2dce6162c4494b2b9ce5a9b0f8
+  - enabled: 1
+    path: Assets/Scenes/YippeeShark.unity
+    guid: f9bdde08e860d8b4ab4f11bb00261680
+  - enabled: 1
+    path: Assets/Scenes/WinScreen2.unity
+    guid: 56a9ba7f3a266f948bc109f459fd0849
+  - enabled: 1
+    path: Assets/Scenes/FinalMenu.unity
+    guid: ae197917b7a93fc4087260f95e0f9eb2
   - enabled: 0
-    path: Assets/Scenes/GameplayDemo.unity
-    guid: 089431efa8c3cae4e9bdc22646e9865c
-  - enabled: 0
-    path: Assets/Scenes/GameplayDemo2.unity
-    guid: 6f6bd86940efcd44a8a47470aad83a96
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: Assets/Scenes/BrainWorld.unity
     guid: 3ddfa20178481204c9dc38773aeb3a85
   - enabled: 0
     path: Assets/Scenes/Dark1.unity
     guid: 05dab1c0822d78b42969261f556f3c5e
+  - enabled: 0
+    path: Assets/Scenes/GameplayDemo.unity
+    guid: 089431efa8c3cae4e9bdc22646e9865c
+  - enabled: 0
+    path: Assets/Scenes/GameplayDemo2.unity
+    guid: 6f6bd86940efcd44a8a47470aad83a96
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000

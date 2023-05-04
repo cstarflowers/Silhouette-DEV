@@ -22,7 +22,13 @@ Twicce Switzerland . . . Contributor ([Autumn Trees -- Other](https://www.pexels
 Yasemin Ozer . . . Contributor ([Star Background -- Other](https://media.discordapp.net/attachments/549295098387628032/1070555543162331156/silhouette20opening.mov))
 
 ## Music/SFX
+CryNN . . . Contributor ([Apartment 1987 -- CC BY 3.0](https://www.newgrounds.com/audio/listen/1206717))
+
+Drazil-Anachain . . . Contributor ([REM.cycle.exe -- CC BY-SA 3.0](https://www.newgrounds.com/audio/listen/1173389))
+
 EdenGD . . . Contributor ([Morphing -- CC BY-SA 3.0](https://www.newgrounds.com/audio/listen/1183064))
+
+Elebear . . . Contributor ([crushes suck -- CC BY-NC-SA 3.0](https://www.newgrounds.com/audio/listen/1206135))
 
 Epikuro . . . Contributor ([Treasure Reflections (Jamuary Day 5) -- Other](https://www.newgrounds.com/audio/listen/1185201))
 
@@ -46,6 +52,8 @@ MATRIXXX_ . . . Contributor ([Horror Inspect Sound 2 -- CC 0](https://freesound.
 
 Mrickey13 . . . Contributor ([Fight Win Tune -- CC 0](https://freesound.org/people/mrickey13/sounds/518855/))
 
+OcularNebula . . . Contributor ([Snow Waltz -- CC BY-NC 3.0](https://www.newgrounds.com/audio/listen/449452))
+
 PhonosUPF . . Contributor ([Piano Attack Sequence -- CC 0](https://freesound.org/people/PhonosUPF/sounds/488775/))
 
 ReinnOfficialTracks . . . Contributor ([My Little Soul -- Other](https://www.newgrounds.com/audio/listen/1035875))
@@ -57,6 +65,8 @@ Shadow6nothing9 . . . Contributor ([-The Carnival Floor- -- CC BY-NC-ND 3.0](htt
 Straget . . . Contributor ([The rain falls against the parasol - CC BY 4.0](https://freesound.org/people/straget/sounds/531947/))
 
 Tams_kp . . . Contributor ([typewriter19.ogg -- CC 0](https://freesound.org/people/tams_kp/sounds/43559/))
+
+Vermeen . . . Contributor ([You now own one frog, take care of him -- CC BY 3.0](https://www.newgrounds.com/audio/listen/1187068)) 
 
 Victor_Natas . . . Contributor ([Mysterious music -- CC 0](https://freesound.org/people/Victor_Natas/sounds/554742/))
 
