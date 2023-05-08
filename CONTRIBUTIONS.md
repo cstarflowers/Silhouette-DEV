@@ -72,6 +72,8 @@ Victor_Natas . . . Contributor ([Mysterious music -- CC 0](https://freesound.org
 
 WaxTerK . . . Contributor ([Raindrops -- CC BY-SA 3.0](https://www.newgrounds.com/audio/listen/1163732))
 
+Wilidacious . . . Contributor ([Ice palace -- CC BY-NC-SA 3.0](https://www.newgrounds.com/audio/listen/1193550))
+
 Xorberax . . . Contributor ([Imaginary Flowers -- CC BY-NC-SA 3.0](https://www.newgrounds.com/audio/listen/1132211))
 
 ## World Building 
