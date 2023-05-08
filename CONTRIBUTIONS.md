@@ -68,6 +68,8 @@ Straget . . . Contributor ([The rain falls against the parasol - CC BY 4.0](http
 
 Tams_kp . . . Contributor ([typewriter19.ogg -- CC 0](https://freesound.org/people/tams_kp/sounds/43559/))
 
+Vai90 . . . Contributor ([Sea Harmony -- CC BY-NC-SA 3.0](https://www.newgrounds.com/audio/listen/137133))
+
 Vermeen . . . Contributor ([You now own one frog, take care of him -- CC BY 3.0](https://www.newgrounds.com/audio/listen/1187068)) 
 
 Victor_Natas . . . Contributor ([Mysterious music -- CC 0](https://freesound.org/people/Victor_Natas/sounds/554742/))
