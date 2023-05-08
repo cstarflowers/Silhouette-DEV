@@ -9757,7 +9757,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delay: 0.05
   textArray:
-  - Your parents, bed, dresser, and bookshelf. They aren't home much.
+  - Your parents bed, dresser, and bookshelf. They aren't home much.
   - A book lies adjacent to them on the floor. It's titled "How to Raise an Obedient
     Child".
   - STOP
