@@ -32,6 +32,8 @@ Elebear . . . Contributor ([crushes suck -- CC BY-NC-SA 3.0](https://www.newgrou
 
 Epikuro . . . Contributor ([Treasure Reflections (Jamuary Day 5) -- Other](https://www.newgrounds.com/audio/listen/1185201))
 
+EX-LYD . . . Contributor ([Sea Hike -- CC BY-NC-SA 3.0](https://www.newgrounds.com/audio/listen/1091971))
+
 ForgottenDawn . . . Contributor ([FD - Pale Sun -- CC BY 3.0](https://www.newgrounds.com/audio/listen/1182608))
 
 GlowBoyMusic . . . Contributor ([Serenade -- CC BY-NC-ND 3.0](https://www.newgrounds.com/audio/listen/1110611))
