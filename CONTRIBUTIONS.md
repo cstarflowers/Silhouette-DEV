@@ -44,6 +44,8 @@ GlueIsobar . . . Contributor ([Cavernous Drone -- CC 0](https://freesound.org/pe
 
 HypercubeRecords . . . Contributor ([Fog -- CC BY-SA 3.0](https://www.newgrounds.com/audio/listen/1101957))
 
+Hyperwave9 . . . Contributor ([Welcome to breakcore heaven -- Other](https://www.newgrounds.com/audio/listen/1149485))
+
 Imbubec . . . Contributor ([Knife Sounds -- CC 0](https://freesound.org/people/lmbubec/packs/7460/))
 
 Kevin MacLeod . . . Contributor ([Gymnopedie No. 1 -- CC BY 4.0](https://www.youtube.com/watch?v=YlTQSg4so8k))
