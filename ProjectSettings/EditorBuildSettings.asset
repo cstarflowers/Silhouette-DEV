@@ -48,6 +48,24 @@ EditorBuildSettings:
     path: Assets/Scenes/WinScreen2.unity
     guid: 56a9ba7f3a266f948bc109f459fd0849
   - enabled: 1
+    path: Assets/Scenes/CloudWorld.unity
+    guid: b3cccc536f95e694caab2d74838b0322
+  - enabled: 1
+    path: Assets/Scenes/EyeAngel.unity
+    guid: 31133d6763d82e44abfa48c63d65c561
+  - enabled: 1
+    path: Assets/Scenes/EmoSun.unity
+    guid: 502abd3fe7bb316478a8a83467fd6dfb
+  - enabled: 1
+    path: Assets/Scenes/SpiralBunny.unity
+    guid: 476cfa64fb59e4d4f9b2ee7d89ab4369
+  - enabled: 1
+    path: Assets/Scenes/WinScreen3.unity
+    guid: e43fea667218c964fbae7895fd5fe45d
+  - enabled: 1
+    path: Assets/Scenes/CutscenePlayer2.unity
+    guid: 44bbc2e176f1e1b4388efe88d9254092
+  - enabled: 1
     path: Assets/Scenes/FinalMenu.unity
     guid: ae197917b7a93fc4087260f95e0f9eb2
   - enabled: 0

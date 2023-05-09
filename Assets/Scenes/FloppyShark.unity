@@ -1279,7 +1279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cbc7935c3ba41143a6d4a0b04b4c82f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 70
+  delay: 110
   newLevel: WinScreen2
 --- !u!1 &780492653
 GameObject:
@@ -1364,7 +1364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 121506}
   comboText: {fileID: 1100877183}
-  HPInEditor: 75000
+  HPInEditor: 125000
 --- !u!4 &786516798
 Transform:
   m_ObjectHideFlags: 0
@@ -2034,7 +2034,7 @@ MonoBehaviour:
   delay: 0
   marginOfError: 0.3
   inputDelayInMilliseconds: 0
-  fileLocation: take-a-frog-easy.mid
+  fileLocation: sea-harmony-easy.mid
   noteTime: 1
   noteSpawnY: 5
   noteTapY: 0
