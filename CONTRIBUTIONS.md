@@ -42,6 +42,8 @@ GlowBoyMusic . . . Contributor ([Serenade -- CC BY-NC-ND 3.0](https://www.newgro
 
 GlueIsobar . . . Contributor ([Cavernous Drone -- CC 0](https://freesound.org/people/glueIsobar/sounds/195137/))
 
+HypercubeRecords . . . Contributor ([Fog -- CC BY-SA 3.0](https://www.newgrounds.com/audio/listen/1101957))
+
 Imbubec . . . Contributor ([Knife Sounds -- CC 0](https://freesound.org/people/lmbubec/packs/7460/))
 
 Kevin MacLeod . . . Contributor ([Gymnopedie No. 1 -- CC BY 4.0](https://www.youtube.com/watch?v=YlTQSg4so8k))
