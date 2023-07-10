@@ -23,6 +23,8 @@ public class ScoreManager : MonoBehaviour
         Instance = this;
         comboScore = 0;
         adjScore = 0;
+        hitCount = 0;
+        missCount = 0;
     }
 
     public static void Hit()
