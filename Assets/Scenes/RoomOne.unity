@@ -6135,8 +6135,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delay: 0.05
   textArray:
-  - In front of you, bookshelves lined with every book you could ever read. But,
-    you don't really like reading.
+  - In front of you, bookshelves lined with every book you could ever read.
+  - But, they aren't very interesting.
   - STOP
   textObject: {fileID: 1027665763}
   textSound: {fileID: 2029602516}
@@ -9630,8 +9630,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delay: 0.05
   textArray:
-  - In front of you, bookshelves lined with every book you could ever read. But,
-    you don't really like reading.
+  - In front of you, bookshelves lined with every book you could ever read.
+  - But, they aren't very interesting.
   - STOP
   textObject: {fileID: 1027665763}
   textSound: {fileID: 2029602516}
@@ -9757,7 +9757,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delay: 0.05
   textArray:
-  - Your parents bed, dresser, and bookshelf. They aren't home much.
+  - Your parents' bed, dresser, and bookshelf. They aren't home much.
   - A book lies adjacent to them on the floor. It's titled "How to Raise an Obedient
     Child".
   - STOP
@@ -9885,7 +9885,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delay: 0.05
   textArray:
-  - A cold meal and an equally as cold teacup. Delightful!
+  - A cold meal and an equally cold teacup. How... wonderful.
   - STOP
   textObject: {fileID: 1027665763}
   textSound: {fileID: 2029602516}

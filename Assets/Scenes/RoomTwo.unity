@@ -5485,11 +5485,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   delay: 0.05
   textArray:
-  - You look around cautiously when you enter the door again.
+  - You look around cautiously when you enter the house again.
   - Your mom is in the corner complaining about the lack of food.
-  - Your father is at the table he always is, eating the cold food from earlier.
-  - But, you decide it best to just tune things out.
-  - '[Why not tap "R" on your keyboard to use your imagination and zone out?]'
+  - Your father is at the table, eating whatever's left over.
+  - But, still, you decide it best to just tune things out.
+  - '[Why not tap "R" on your keyboard to zone out?]'
   - STOP
   textObject: {fileID: 1027665763}
   textSound: {fileID: 2029602516}
