@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 
 public class TypingEffect : MonoBehaviour {
-    public float delay = 0.05f;
+    private float delay = 0.04f;
     private string currentText = " ";
 
     public string[] textArray;
