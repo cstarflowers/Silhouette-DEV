@@ -802,7 +802,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7bc9e92ddeb8c1429fc9b0a20ce43ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newLevel: ShroomWorld
+  newLevel: LevelSelect
   fadeSpeed: 1
   interactSound: {fileID: 40886965}
 --- !u!81 &1461075405

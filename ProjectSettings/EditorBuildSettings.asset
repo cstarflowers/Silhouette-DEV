@@ -11,16 +11,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CutscenePlayer1.unity
     guid: 67b65018880f11843aea2f0318c491c9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/RoomOne.unity
     guid: d0bd6176f4cef374aab3ad506d778449
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/minaWorld.unity
     guid: 09134ec8e6a77c24ab00447d85566963
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/RoomTwo.unity
     guid: 631f1448d97bf834caed24dbb3766e03
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ShroomWorld.unity
     guid: 70674c24cdc0dc04bb1d1fb0762e166e
   - enabled: 1
@@ -32,7 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WinScreen.unity
     guid: a58c96aa365d7ea4fa93049fa597e6e2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/WaterWorld.unity
     guid: 3f0d51bcbd79a6840a44e49f413f3874
   - enabled: 1
@@ -47,7 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WinScreen2.unity
     guid: 56a9ba7f3a266f948bc109f459fd0849
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CloudWorld.unity
     guid: b3cccc536f95e694caab2d74838b0322
   - enabled: 1
@@ -62,10 +62,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WinScreen3.unity
     guid: e43fea667218c964fbae7895fd5fe45d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CutscenePlayer2.unity
     guid: 44bbc2e176f1e1b4388efe88d9254092
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/FinalMenu.unity
     guid: ae197917b7a93fc4087260f95e0f9eb2
   - enabled: 0
@@ -80,7 +80,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/GameplayDemo.unity
     guid: 089431efa8c3cae4e9bdc22646e9865c
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/GameplayDemo2.unity
     guid: 6f6bd86940efcd44a8a47470aad83a96
   - enabled: 0
@@ -89,6 +89,9 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/LevelSelect.unity
+    guid: 7db1797818eaf194eb085293fb25dc7d
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: cae43d2d70829f4418272b5b54b2ad81, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 99cae04ef2161f241b597344563c5807, type: 2}
